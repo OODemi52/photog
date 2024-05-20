@@ -124,7 +124,7 @@ export default function ContactPage() {
                     value={field.value}
                     onChange={field.onChange}
                   >
-                    {(inputProps: ReactNode) => <Input {...inputProps} />}
+                    {/*(inputProps: ReactNode) => <Input {...inputProps} />*/}
                   </InputMask>
                 </FormControl>
                 <FormMessage />

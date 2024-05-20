@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import image from "../../public/img1.jpg";
 import { useRef } from "react";
 import { useIsVisible } from "@/components/useIsVisible";
 
@@ -36,12 +35,26 @@ export default function Home() {
             <p className="font-thin">Life happens moment by moment. We go through many different experiences.</p>
           </div>
           <div className={`w-full md:w-1/2 px-24 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-            <Image src={image} alt="logo" layout="responsive" width={500} height={500} />
+          <Image
+              className="h-full w-full object-cover animate-fade-down z-[-2]"
+              src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port1.jpg"
+              alt="Graduation Picture 5"
+              width={500}
+              height={750}
+              style={{ objectFit: 'cover' }}
+            />
           </div>
         </section>
         <section ref={ref2} className="flex flex-col md:flex-row items-center justify-center w-full px-8">
           <div className={`w-full md:w-1/2 px-24 transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
-            <Image src={image} alt="logo" layout="responsive" width={500} height={500}/>
+          <Image
+              className="h-full w-full object-cover animate-fade-down z-[-2]"
+              src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port1.jpg"
+              alt="Graduation Picture 5"
+              width={500}
+              height={750}
+              style={{ objectFit: 'cover' }}
+            />
           </div>
           <div className="w-full md:w-1/2 text-center">
             <h2 className="text-6xl font-thin">Capturing moments one frame at a time.</h2>
@@ -54,7 +67,14 @@ export default function Home() {
             <p className="font-thin">The essence of a photograph can&apos;t be expressed in words, nor [blank], but is rather felt.</p>
           </div>
           <div className={`w-full md:w-1/2 px-24 transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
-            <Image src={image} alt="logo" layout="responsive" width={500} height={500} />
+          <Image
+              className="h-full w-full object-cover animate-fade-down z-[-2]"
+              src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port1.jpg"
+              alt="Graduation Picture 5"
+              width={500}
+              height={750}
+              style={{ objectFit: 'cover' }}
+            />
           </div>
         </section>
       </main>

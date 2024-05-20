@@ -1,10 +1,3 @@
-import grad1 from "../../../public/img/graduation/grad1.jpg"
-import grad2 from "../../../public/img/graduation/grad2.jpg"
-import grad3 from "../../../public/img/graduation/grad3.jpg"
-import grad4 from "../../../public/img/graduation/grad4.jpg"
-import grad5 from "../../../public/img/graduation/grad5.jpg"
-import bg1 from "../../../public/bg/bg1.jpg"
-
 import Image from "next/image"
 import Link from "next/link"
 import {
@@ -92,17 +85,17 @@ return (
                                 style={{ objectFit: 'cover' }}
                             />
                             <Image
-                                className="h-full w-full object-cover lg-image-mask image-mask"
-                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad4.jpg"
-                                alt="Graduation Picture 4"
+                                className="h-full w-full object-cover lg-image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad19.jpg"
+                                alt="Graduation Picture 19"
                                 width={500}
                                 height={750}
                                 style={{ objectFit: 'cover' }}
                             />
                             <Image
                                 className="h-full w-full object-cover"
-                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad3.jpg"
-                                alt="Graduation Picture 3"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad32.jpg"
+                                alt="Graduation Picture 32"
                                 width={500}
                                 height={750}
                                 style={{ objectFit: 'cover' }}
@@ -124,7 +117,7 @@ return (
                 </TabsContent>
 
                 {/* Portraits */}
-                <TabsContent className="h-4/5" value="portraits">
+                <TabsContent value="portraits">
                    <Card className="flex flex-col lg:flex-row z-50">
                         <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                             <div className="flex-1">
@@ -146,13 +139,48 @@ return (
                             </div>
                             <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto">
                             <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
-                                <Image className="h-full w-full object-cover lg-image-mask image-mask" src={grad2} alt="Graduation Picture 2" layout="responsive" />
-                                <Image className="h-full w-full object-cover image-mask" src={grad5} alt="Graduation Picture 3" layout="responsive" />
-                                <Image className="h-full w-full object-cover lg-image-mask" src={grad4} alt="Graduation Picture 4" layout="responsive" />
-                                <Image className="h-full w-full object-cover" src={grad3} alt="Graduation Picture 5" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port19.jpg"
+                                alt="Portrait Picture 19"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port3.jpg"
+                                alt="Portrait Picture 3"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port17.jpg"
+                                alt="Portrait Picture 17"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port57.jpg"
+                                alt="Portrait Picture 57"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
-                                <Image className="h-full w-full object-cover" src={grad1} alt="Graduation Picture 1" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port13.jpg"
+                                alt="Portrait Picture 13"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             </div>
                         </div>
@@ -161,7 +189,7 @@ return (
 
                 {/* Headshots */}
                 <TabsContent value="headshots">
-                    <Card className="flex flex-col lg:flex-row z-50">
+                   <Card className="flex flex-col lg:flex-row z-50">
                         <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                             <div className="flex-1">
                             <CardHeader>
@@ -183,13 +211,48 @@ return (
                             </div>
                             <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto">
                             <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
-                                <Image className="h-full w-full object-cover lg-image-mask image-mask" src={grad2} alt="Graduation Picture 2" layout="responsive" />
-                                <Image className="h-full w-full object-cover image-mask" src={grad5} alt="Graduation Picture 3" layout="responsive" />
-                                <Image className="h-full w-full object-cover lg-image-mask" src={grad4} alt="Graduation Picture 4" layout="responsive" />
-                                <Image className="h-full w-full object-cover" src={grad3} alt="Graduation Picture 5" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head4.jpg"
+                                alt="Professional Headshot Picture 19"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head12.jpg"
+                                alt="Professional Headshot Picture 3"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head9.jpg"
+                                alt="Professional Headshot Picture 17"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head5.jpg"
+                                alt="Professional Headshot Picture 57"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
-                                <Image className="h-full w-full object-cover" src={grad1} alt="Graduation Picture 1" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head2.jpg"
+                                alt="Professional Headshot Picture 13"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             </div>
                         </div>
@@ -210,13 +273,48 @@ return (
                             </div>
                             <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto">
                             <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
-                                <Image className="h-full w-full object-cover lg-image-mask image-mask" src={grad2} alt="Graduation Picture 2" layout="responsive" />
-                                <Image className="h-full w-full object-cover image-mask" src={grad5} alt="Graduation Picture 3" layout="responsive" />
-                                <Image className="h-full w-full object-cover lg-image-mask" src={grad4} alt="Graduation Picture 4" layout="responsive" />
-                                <Image className="h-full w-full object-cover" src={grad3} alt="Graduation Picture 5" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event32.jpg"
+                                alt="Event Picture 32"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event85.jpg"
+                                alt="Event Picture 85"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event88.jpg"
+                                alt="Event Picture 88"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event72.jpg"
+                                alt="Event Picture 72"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
-                                <Image className="h-full w-full object-cover" src={grad1} alt="Graduation Picture 1" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event4.jpg"
+                                alt="Event Picture 4"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             </div>
                         </div>
@@ -227,9 +325,9 @@ return (
                 <TabsContent value="landscape">
                     <Card className="flex flex-col lg:flex-row z-50">
                         <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
-                            <div className="flex-1">
+                        <div className="flex-1">
                             <CardHeader>
-                                <CardTitle className="font-thin text-6xl">Landscape & Architecture</CardTitle>
+                                <CardTitle className="font-thin text-5xl">Landscape & Architecture</CardTitle>
                                 <CardDescription className="italic font-thin text-lg justify-end mx-auto lg:pt-32">
                                 Please Contact For Pricing
                                 </CardDescription>
@@ -237,13 +335,48 @@ return (
                             </div>
                             <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto">
                             <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
-                                <Image className="h-full w-full object-cover lg-image-mask image-mask" src={grad2} alt="Graduation Picture 2" layout="responsive" />
-                                <Image className="h-full w-full object-cover image-mask" src={grad5} alt="Graduation Picture 3" layout="responsive" />
-                                <Image className="h-full w-full object-cover lg-image-mask" src={grad4} alt="Graduation Picture 4" layout="responsive" />
-                                <Image className="h-full w-full object-cover" src={grad3} alt="Graduation Picture 5" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land5.jpg"
+                                alt="Landscape & Architecture 5"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land8.jpg"
+                                alt="Landscape & Architecture 8"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover lg-image-mask"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land15.jpg"
+                                alt="Landscape & Architecture 15"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land21.jpg"
+                                alt="Landscape & Architecture 21"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
-                                <Image className="h-full w-full object-cover" src={grad1} alt="Graduation Picture 1" layout="responsive" />
+                            <Image
+                                className="h-full w-full object-cover"
+                                src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land2.jpg"
+                                alt="Landscape & Architecture Picture 2"
+                                width={500}
+                                height={750}
+                                style={{ objectFit: 'cover' }}
+                            />
                             </div>
                             </div>
                         </div>

@@ -136,7 +136,7 @@ export default function Home() {
                   </div>
           </div>
           <div className="w-full md:w-1/2 text-center pl-4">
-            <h2 className="text-4xl lg:text-6xl font-thin">Bring your to life.</h2>
+            <h2 className="text-4xl lg:text-6xl font-thin">Bring your vision to life.</h2>
             <p className="font-thin">D-Labs is where imagination meets skill and execution. You come with want you want, and we&apos;ll handle the rest!</p>
             <div className="py-4">
               <Link href="/gallery/portraits" className="hover:underline text-purple-500">Portraits{` >`}</Link>

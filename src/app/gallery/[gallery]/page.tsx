@@ -1815,7 +1815,7 @@ const images = [
 export default function GalleryOption() {
   const pathname = usePathname();
   const lastSegment = pathname.split("/").pop();
-  const category = decodeURI(usePathname().split("/").pop() ?? '').charAt(0).toUpperCase() + decodeURI(usePathname().split("/").pop() ?? '').slice(1)
+  let category = decodeURI(usePathname().split("/").pop() ?? '').charAt(0).toUpperCase() + decodeURI(usePathname().split("/").pop() ?? '').slice(1)
 
   const filteredImages = images.filter((image) => image.type === lastSegment);
 
@@ -1828,9 +1828,9 @@ export default function GalleryOption() {
     };
 
   const _metadata: Metadata = {
-    title: `D-Labs Photography - ${category} Gallery`,
+    title: `D-Labs Photography - ${category === "Landscape&architecture" ? "Landscape & Architecture" :category} Gallery`,
     openGraph: {
-      url: `https://dlabs.photo/gallery/${category}`,
+      url: `https://dlabs.photo/gallery/${category === "Landscape&architecture" ? "Landscape & Architecture" :category}`,
       images: [
         {
           width: 512,
@@ -1844,7 +1844,7 @@ export default function GalleryOption() {
   return (
     <main>
       <h1 className="text-5xl pl-8 pt-4 font-thin">
-        <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category}
+        <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category === "Landscape&architecture" ? "Landscape & Architecture" :category}
       </h1>
       <div className="gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
           {filteredImages.map((image) => (

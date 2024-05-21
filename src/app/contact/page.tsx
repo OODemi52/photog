@@ -30,6 +30,21 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Image from "next/image"
 import React from "react"
+import { Metadata } from "next"
+
+const metadata: Metadata = {
+    title: `D-Labs Photography - Contact Us`,
+    openGraph: {
+      url: "https://dlabs.photo/contact",
+      images: [
+        {
+          width: 512,
+          height: 512,
+          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+        },
+      ],
+    },
+  };
 
 const formSchema = z.object({
   name: z.string().min(3, {
@@ -78,7 +93,7 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="flex flex-col md:flex-row w-full md:h-screen mb-16">
+    <main className="flex flex-col md:flex-row w-full md:h-screen">
       <section className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden md:object-top">
         <Image
           src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port9.jpg"
@@ -96,7 +111,7 @@ export default function ContactPage() {
             className="space-y-8 px-8 py-4 w-full"
           >
             <h1 className="text-4xl lg:text-6xl md:text-4xl font-thin" style={{ textShadow: 'black 1px 0 10px' }}>Shoot Us A Message!</h1>
-            <p className="md:text-base font-thin">Subtitle to compliment what is said in the hook.</p>
+            <p className="md:text-base font-thin">Let Us Know How We Can Best Cater To Your Needs.</p>
             <FormField control={form.control} name="name" render={({ field }) => (
               <FormItem>
                 <FormLabel>Name</FormLabel>
@@ -121,8 +136,10 @@ export default function ContactPage() {
                 <FormControl>
                   <InputMask
                     mask="999-999-9999"
+                    maskChar=" "
                     value={field.value}
                     onChange={field.onChange}
+                    className="input w-full bg-transparent border-b"
                   >
                     {/*(inputProps: ReactNode) => <Input {...inputProps} />*/}
                   </InputMask>
@@ -188,7 +205,7 @@ export default function ContactPage() {
                       selected={field.value}
                       onSelect={field.onChange}
                       disabled={(date) =>
-                        date > new Date() || date < new Date("1900-01-01")
+                        date < new Date()
                       }
                       initialFocus
                     />

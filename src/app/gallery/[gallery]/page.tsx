@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { usePathname } from 'next/navigation'
-
-
+import { Metadata } from "next";
 
 const images = [
   {
@@ -316,15 +314,31 @@ const images = [
 
 
 export default function GalleryOption() {
-
-  const pathname = usePathname()
-  const lastSegment: string | undefined = pathname.split("/").pop();
+  const pathname = usePathname();
+  const lastSegment = pathname.split("/").pop();
+  const category = decodeURI(usePathname().split("/").pop() ?? '').charAt(0).toUpperCase() + decodeURI(usePathname().split("/").pop() ?? '').slice(1)
 
   const filteredImages = images.filter((image) => image.type === lastSegment);
 
+  const _metadata: Metadata = {
+    title: `D-Labs Photography - ${category} Gallery`,
+    openGraph: {
+      url: `https://dlabs.photo/gallery/${category}`,
+      images: [
+        {
+          width: 512,
+          height: 512,
+          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+        },
+      ],
+    },
+  };
+
   return (
     <>
-      <h1 className="text-7xl pl-8 pt-4 font-thin hover:underline"><Link href="/gallery">All</Link> {'>'} {decodeURI(lastSegment ?? '').charAt(0).toUpperCase() + decodeURI(lastSegment ?? '').slice(1)}</h1>
+      <h1 className="text-5xl pl-8 pt-4 font-thin">
+        <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category}
+      </h1>
       <div className="gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
         {filteredImages.map((image) => (
           <div key={image.id} className="gallery-item my-auto">
@@ -333,8 +347,10 @@ export default function GalleryOption() {
               alt={image.alt}
               width={image.width}
               height={image.height}
-              layout="contain"
+              layout="responsive"
               className="rounded-lg shadow-lg"
+              loading="lazy"
+              quality={75}
             />
           </div>
         ))}

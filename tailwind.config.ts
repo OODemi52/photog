@@ -88,9 +88,6 @@ const config = {
         'fade-down': 'fade-down 3s ease-out forwards',
         'fade-in': 'fade-in 3s ease-out forwards',
       },
-      backgroundImage: {
-        "faq-pattern": "url('/public/bg/bg2.jpg')",
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],

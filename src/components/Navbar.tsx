@@ -3,7 +3,6 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/img/graduation/grad3.jpg";
 
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/icons";
@@ -29,9 +28,9 @@ export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <NavigationMenu className="w-screen z-[50]" style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)" }}>
-      <div className="flex items-center justify-between px-4 py-3 lg:py-5 lg:px-8">
-        <div className="lg:hidden">
+    <NavigationMenu className="w-full z-[50]" style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)" }}>
+      <div className="flex items-center justify-between px-4 py-3 lg:py-5 lg:px-8 w-full">
+        <div className="lg:hidden flex items-center">
           <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
               <button
@@ -46,14 +45,12 @@ export function Navbar() {
               </button>
             </DialogTrigger>
             <DialogContent
-              className="m-auto z-[60] flex items-center justify-center bg-zinc-900 p-4"
+              className=" z-[60] flex items-center justify-center bg-zinc-900 p-4 scale-90"
             >
               <DialogHeader className="absolute top-4 right-4">
                 <DialogClose asChild onClick={() => setIsOpen(false)} />
               </DialogHeader>
               <nav className="flex flex-col items-center justify-center space-y-4">
-
-                {/* Small List */}
                 <NavigationMenuList className="flex flex-col items-center space-y-4">
                   <NavigationMenuItem onClick={() => setIsOpen(false)}>
                     <Link href="/" legacyBehavior passHref>
@@ -69,7 +66,7 @@ export function Navbar() {
                         <AccordionContent>
                           <ul className="grid gap-3 p-4">
                             <ListItem href="/gallery/graduation" title="Graduation" onClick={() => setIsOpen(false)}>
-                              Celebrate Life&apos;s Acheivements.
+                              Celebrate Life&apos;s Achievements.
                             </ListItem>
                             <ListItem href="/gallery/portraits" title="Portraits" onClick={() => setIsOpen(false)}>
                              Show Off Your Signature Style.
@@ -109,15 +106,6 @@ export function Navbar() {
                       </NavigationMenuLink>
                     </Link>
                   </NavigationMenuItem>
-                  {/*
-                  <NavigationMenuItem onClick={() => setIsOpen(false)}>
-                    <Link href="/faq" legacyBehavior passHref>
-                      <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                        FAQ
-                      </NavigationMenuLink>
-                    </Link>
-                  </NavigationMenuItem>
-                  */}
                 </NavigationMenuList>
               </nav>
             </DialogContent>
@@ -125,7 +113,6 @@ export function Navbar() {
         </div>
       </div>
       <div className="hidden lg:flex lg:items-center lg:justify-between w-full">
-        {/* Big List */}
         <NavigationMenuList className="w-full flex justify-center">
           <NavigationMenuItem>
             <NavigationMenuTrigger>Gallery</NavigationMenuTrigger>
@@ -133,22 +120,11 @@ export function Navbar() {
               <div className="grid grid-cols-1 md:grid-cols-2 p-2 md:w-[600px] lg:w-[700px]">
                 <div className="flex justify-center items-center">
                   <NavigationMenuLink asChild>
-                    <a
-                      className="flex h-full w-full aspect-square select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none focus:shadow-md"
-                      href="/"
-                    >
-                      <Image
-                        src={logo}
-                        alt="D-Labs Logo"
-                        className="w-0 h-0 lg:w-full lg:h-full"
-                        layout="responsive"
-                      />
-                    </a>
                   </NavigationMenuLink>
                 </div>
                 <ul className="flex flex-col justify-center space-y-4">
                   <ListItem href="/gallery/graduation" title="Graduation">
-                    Celebrate Life&apos;s Acheivements.
+                    Celebrate Life&apos;s Achievements.
                   </ListItem>
                   <ListItem href="/gallery/portraits" title="Portraits">
                     Show Off Your Signature Style.
@@ -187,21 +163,11 @@ export function Navbar() {
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          {/*}
-          <NavigationMenuItem>
-            <Link href="/faq" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                FAQ
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          */}
         </NavigationMenuList>
       </div>
     </NavigationMenu>
   );
 }
-
 
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,

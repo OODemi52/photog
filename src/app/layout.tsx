@@ -19,22 +19,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Header />
-          <main className="flex-grow pb-10">
-            {children}
-            <SpeedInsights />
-          </main>
-          <Footer />
-        </ThemeProvider>
-      </body>
-    </html>
+    <>
+      <html lang="en">
+        <body className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="flex-grow">
+              {children}
+              <SpeedInsights />
+            </main>
+            <Footer />
+          </ThemeProvider>
+        </body>
+      </html>
+    </>
   );
 }

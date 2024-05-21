@@ -62,7 +62,6 @@ export default function Home() {
                 alt={`Hero Image ${index + 1}`}
                 width={500}
                 height={750}
-                objectFit="contain"
                 loading="lazy"
                 quality={75}
               />

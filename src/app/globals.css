@@ -28,6 +28,9 @@
       --destructive: 0 84.2% 60.2%;
       --destructive-foreground: 0 0% 98%;
 
+      --success: 120 40% 50%;
+      --success-foreground: 0 0% 98%;
+
       --border: 240 5.9% 90%;
       --input: 240 5.9% 90%;
       --ring: 240 10% 3.9%;
@@ -74,6 +77,20 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+  
 
   @media (min-width: 0px) and (max-width: 1023px) {
     .image-mask {

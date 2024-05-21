@@ -37,6 +37,10 @@ const config = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
@@ -87,6 +91,7 @@ const config = {
         'fade-up': 'fade-up 3s ease-out forwards',
         'fade-down': 'fade-down 3s ease-out forwards',
         'fade-in': 'fade-in 3s ease-out forwards',
+        'spin': 'spin 1s linear infinite',
       },
     },
   },

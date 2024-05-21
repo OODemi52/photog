@@ -29,8 +29,9 @@ import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import Image from "next/image"
-import React from "react"
+import React, { useState } from "react"
 import { Metadata } from "next"
+import { Icons } from "@/components/icons"
 
 const metadata: Metadata = {
     title: `D-Labs Photography - Contact Us`,
@@ -44,52 +45,72 @@ const metadata: Metadata = {
         },
       ],
     },
-  };
+};
 
 const formSchema = z.object({
-  name: z.string().min(3, {
-    message: "Name must be at least 3 characters.",
-  }),
-  email: z.string().email({
-    message: "Invalid email address.",
-  }),
-  number: z.string().min(10, {
-    message: "Number must be at least 10 characters.",
-  }),
-  interest: z.string().min(3, {
-    message: "Interest must be at least 3 characters.",
-  }),
-  date: z.date().min(new Date("1900-01-01"), {
-    message: "Date must be at least 3 characters.",
-  }),
-  message: z.string().min(3, {
-    message: "Message must be at least 3 characters.",
-  }),
+    name: z.string().min(3, {
+        message: "Name must be at least 3 characters.",
+    }),
+    email: z.string().email({
+        message: "Invalid email address.",
+    }),
+    number: z.string().regex(/^\d{3}-\d{3}-\d{4}$/, {
+        message: "Please enter a valid phone number.",
+    }),
+    interest: z.enum(["graduation", "portrait", "headshot", "event", "landscape"]).refine((value) => value !== undefined, {
+        message: "Please choose one of the services.",
+    }),
+    date: z.date().refine((value) => value >= new Date(new Date().setDate(new Date().getDate() + 1)), {
+        message: "Please pick a date.",
+    }),
+    message: z.string().optional(),
 })
 
 export default function ContactPage() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      name: "",
-      email: "",
-      number: "",
-      interest: "",
-      date: new Date(Date.now()),
-      message: "",
+        name: "",
+        email: "",
+        number: "",
+        interest: undefined,
+        date: new Date(new Date().setDate(new Date().getDate() + 1)),
+        message: "",
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values)
-    toast({
-      title: "You submitted the following values:",
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(values, null, 2)}</code>
-        </pre>
-      ),
-    })
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+    try {
+        const response = await fetch('/api/sendContactForm', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(values)
+        });
+    
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+    
+        toast({
+          title: "Your message has been sent!",
+          description: "We will get back to you as soon as possible.",
+          variant: "success",
+        });
+    } catch (error) {
+        console.error(error)
+        toast({
+            title: "Something went wrong!",
+            description: "Please try again.",
+            variant: "destructive",
+          })
+    } finally {
+        setIsSubmitting(false);
+    }
   }
 
   return (
@@ -140,9 +161,7 @@ export default function ContactPage() {
                     value={field.value}
                     onChange={field.onChange}
                     className="input w-full bg-transparent border-b"
-                  >
-                    {/*(inputProps: ReactNode) => <Input {...inputProps} />*/}
-                  </InputMask>
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -151,7 +170,11 @@ export default function ContactPage() {
               <FormItem>
                 <FormLabel>Service of Interest</FormLabel>
                 <FormControl>
-                  <RadioGroup className="flex flex-wrap items-center space-x-2">
+                  <RadioGroup
+                    className="flex flex-wrap items-center space-x-2"
+                    value={field.value}
+                    onValueChange={field.onChange}
+                  >
                     <div className="flex gap-1 items-center">
                       <RadioGroupItem value="graduation" id="graduation" />
                       <Label htmlFor="graduation">Graduation</Label>
@@ -205,7 +228,7 @@ export default function ContactPage() {
                       selected={field.value}
                       onSelect={field.onChange}
                       disabled={(date) =>
-                        date < new Date()
+                        date < new Date(new Date().setDate(new Date().getDate() + 1))
                       }
                       initialFocus
                     />
@@ -221,16 +244,17 @@ export default function ContactPage() {
               <FormItem>
                 <FormLabel>Additional Information</FormLabel>
                 <FormControl>
-                  <Textarea {...field} placeholder="Please provide any additional information you think would be useful, or that you really want us to know..."/>
+                  <Textarea value={field.value} onChange={field.onChange} placeholder="Please provide any additional information you think would be useful, or that you really want us to know..."/>
                 </FormControl>
                 <FormMessage />
               </FormItem>
             )} />
-            <Button variant={"secondary"} type="submit">Submit</Button>
+            <Button variant={"secondary"} type="submit" name="Contact Form Submission Button" disabled={isSubmitting} className="w-full">
+              {isSubmitting && <Icons.spinner className="mr-2 animate-spin" />} Submit
+            </Button>
           </form>
         </Form>
       </section>
     </main>
   )
 }
-

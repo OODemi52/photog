@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import { Metadata } from "next";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { usePathname } from 'next/navigation'
 import Link from "next/link";
+import { shuffleWithSeed } from "@/lib/utils";
 
 interface ImageProps{
   id: number;
@@ -17,6 +18,7 @@ interface ImageProps{
   }
 
 const images = [
+  // Graduation Images
   {
     id: 1,
     type: "graduation",
@@ -65,7 +67,7 @@ const images = [
     width: 500,
     height: 750,
   },
-  {
+  /*{
     id: 7,
     type: "graduation",
     src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad7.jpg",
@@ -112,7 +114,7 @@ const images = [
     alt: "Graduation Picture 12",
     width: 500,
     height: 750,
-  },
+  },*/
   {
     id: 13,
     type: "graduation",
@@ -137,14 +139,14 @@ const images = [
     width: 500,
     height: 750,
   },
-  {
+  /*{
     id: 16,
     type: "graduation",
     src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad16.jpg",
     alt: "Graduation Picture 16",
     width: 500,
     height: 750,
-  },
+  },*/
   {
     id: 17,
     type: "graduation",
@@ -321,7 +323,11 @@ const images = [
     width: 500,
     height: 750,
   },
-  {
+
+
+
+  // Portraits Images
+  /*{
       id: 39,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port1.jpg",
@@ -336,7 +342,7 @@ const images = [
       alt: "Portrait Picture 2",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 41,
       type: "portraits",
@@ -353,7 +359,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 43,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port5.jpg",
@@ -408,7 +414,7 @@ const images = [
       alt: "Portrait Picture 10",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 50,
       type: "portraits",
@@ -425,7 +431,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 52,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port13.jpg",
@@ -448,7 +454,7 @@ const images = [
       alt: "Portrait Picture 15",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 55,
       type: "portraits",
@@ -457,14 +463,14 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 56,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port17.jpg",
       alt: "Portrait Picture 17",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 57,
       type: "portraits",
@@ -497,7 +503,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 61,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port22.jpg",
@@ -512,7 +518,7 @@ const images = [
       alt: "Portrait Picture 23",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 63,
       type: "portraits",
@@ -521,7 +527,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 64,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port25.jpg",
@@ -536,7 +542,7 @@ const images = [
       alt: "Portrait Picture 26",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 66,
       type: "portraits",
@@ -569,7 +575,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 70,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port31.jpg",
@@ -584,7 +590,7 @@ const images = [
       alt: "Portrait Picture 32",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 72,
       type: "portraits",
@@ -617,7 +623,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 76,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port37.jpg",
@@ -632,7 +638,7 @@ const images = [
       alt: "Portrait Picture 38",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 78,
       type: "portraits",
@@ -649,7 +655,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 80,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port41.jpg",
@@ -664,7 +670,7 @@ const images = [
       alt: "Portrait Picture 42",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 82,
       type: "portraits",
@@ -681,14 +687,14 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 84,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port45.jpg",
       alt: "Portrait Picture 45",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 85,
       type: "portraits",
@@ -697,7 +703,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 86,
       type: "portraits",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port47.jpg",
@@ -712,7 +718,7 @@ const images = [
       alt: "Portrait Picture 48",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 88,
       type: "portraits",
@@ -785,6 +791,10 @@ const images = [
       width: 500,
       height: 750,
     },
+
+
+
+    // Headshots Images
     {
       id: 97,
       type: "headshots",
@@ -793,7 +803,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 98,
       type: "headshots",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head2.jpg",
@@ -808,7 +818,7 @@ const images = [
       alt: "Professional Headshot 3",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 100,
       type: "headshots",
@@ -817,7 +827,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 101,
       type: "headshots",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head5.jpg",
@@ -848,7 +858,7 @@ const images = [
       alt: "Professional Headshot 8",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 105,
       type: "headshots",
@@ -881,7 +891,11 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+
+
+
+    // Events Images
+    /*{
       id: 109,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event1.jpg",
@@ -904,7 +918,7 @@ const images = [
       alt: "Event Picture 3",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 112,
       type: "events",
@@ -913,7 +927,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 113,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event5.jpg",
@@ -944,7 +958,7 @@ const images = [
       alt: "Event Picture 8",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 117,
       type: "events",
@@ -953,7 +967,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+   /*{
       id: 118,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event10.jpg",
@@ -1056,7 +1070,7 @@ const images = [
       alt: "Event Picture 22",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 131,
       type: "events",
@@ -1065,7 +1079,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 132,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event24.jpg",
@@ -1152,7 +1166,7 @@ const images = [
       alt: "Event Picture 34",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 143,
       type: "events",
@@ -1169,7 +1183,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 145,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event37.jpg",
@@ -1208,7 +1222,7 @@ const images = [
       alt: "Event Picture 41",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 150,
       type: "events",
@@ -1217,7 +1231,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 151,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event43.jpg",
@@ -1232,7 +1246,7 @@ const images = [
       alt: "Event Picture 44",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 153,
       type: "events",
@@ -1241,14 +1255,14 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 154,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event46.jpg",
       alt: "Event Picture 46",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 155,
       type: "events",
@@ -1257,7 +1271,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 156,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event48.jpg",
@@ -1328,7 +1342,7 @@ const images = [
       alt: "Event Picture 56",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 165,
       type: "events",
@@ -1337,7 +1351,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 166,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event58.jpg",
@@ -1392,7 +1406,7 @@ const images = [
       alt: "Event Picture 64",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 173,
       type: "events",
@@ -1401,14 +1415,14 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 174,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event66.jpg",
       alt: "Event Picture 66",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 175,
       type: "events",
@@ -1417,7 +1431,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 176,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event68.jpg",
@@ -1464,7 +1478,7 @@ const images = [
       alt: "Event Picture 73",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 182,
       type: "events",
@@ -1473,7 +1487,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 183,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event75.jpg",
@@ -1520,7 +1534,7 @@ const images = [
       alt: "Event Picture 80",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 189,
       type: "events",
@@ -1529,7 +1543,7 @@ const images = [
       width: 500,
       height: 750,
     },
-    {
+    /*{
       id: 190,
       type: "events",
       src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event82.jpg",
@@ -1552,7 +1566,7 @@ const images = [
       alt: "Event Picture 84",
       width: 500,
       height: 750,
-    },
+    },*/
     {
       id: 193,
       type: "events",
@@ -1585,6 +1599,10 @@ const images = [
       width: 500,
       height: 750,
     },
+
+
+
+    // Landscape & Architecture Images
     {
       id: 197,
       type: "landscape&architecture",
@@ -1815,22 +1833,25 @@ const images = [
 export default function GalleryOption() {
   const pathname = usePathname();
   const lastSegment = pathname.split("/").pop();
-  let category = decodeURI(usePathname().split("/").pop() ?? '').charAt(0).toUpperCase() + decodeURI(usePathname().split("/").pop() ?? '').slice(1)
+  let category = decodeURI(usePathname().split("/").pop() ?? '').charAt(0).toUpperCase() + decodeURI(usePathname().split("/").pop() ?? '').slice(1);
 
   const filteredImages = images.filter((image) => image.type === lastSegment);
 
-  const [open, setOpen] = useState(false);
-    const [selectedImage, setSelectedImage] = useState<ImageProps | null>(null);
+  const seed = 12345;
+  const shuffledImages = useMemo(() => shuffleWithSeed([...filteredImages], seed), [filteredImages, seed]);
 
-    const handleImageClick = (image: ImageProps) => {
-        setSelectedImage(image);
-        setOpen(true);
-    };
+  const [open, setOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<ImageProps | null>(null);
+
+  const handleImageClick = (image: ImageProps) => {
+    setSelectedImage(image);
+    setOpen(true);
+  };
 
   const _metadata: Metadata = {
-    title: `D-Labs Photography - ${category === "Landscape&architecture" ? "Landscape & Architecture" :category} Gallery`,
+    title: `D-Labs Photography - ${category === "Landscape&architecture" ? "Landscape & Architecture" : category} Gallery`,
     openGraph: {
-      url: `https://dlabs.photo/gallery/${category === "Landscape&architecture" ? "Landscape & Architecture" :category}`,
+      url: `https://dlabs.photo/gallery/${category === "Landscape&architecture" ? "Landscape & Architecture" : category}`,
       images: [
         {
           width: 512,
@@ -1844,38 +1865,38 @@ export default function GalleryOption() {
   return (
     <main>
       <h1 className="text-5xl pl-8 pt-4 font-thin">
-        <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category === "Landscape&architecture" ? "Landscape & Architecture" :category}
+        <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category === "Landscape&architecture" ? "Landscape & Architecture" : category}
       </h1>
       <div className="gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-          {filteredImages.map((image) => (
-            <div key={image.id} className="gallery-item my-auto" onClick={() => handleImageClick(image)}>
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={image.width}
-                height={image.height}
-                className="rounded-lg shadow-lg"
-                loading="lazy"
-                quality={75}
-              />
-            </div>
-          ))}
-        </div>
+        {shuffledImages.map((image) => (
+          <div key={image.id} className="gallery-item my-auto" onClick={() => handleImageClick(image)}>
+            <Image
+              src={image.src}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+              className="rounded-lg shadow-lg"
+              loading="lazy"
+              quality={75}
+            />
+          </div>
+        ))}
+      </div>
 
-        {selectedImage && (
-            <Dialog open={open} onOpenChange={setOpen}>
-                <DialogContent>
-                    <Image
-                        src={selectedImage.src}
-                        alt={selectedImage.alt}
-                        width={selectedImage.width}
-                        height={selectedImage.height}
-                        className="rounded-lg shadow-lg"
-                        quality={100}
-                    />
-                </DialogContent>
-            </Dialog>
-        )}
-      </main>
+      {selectedImage && (
+        <Dialog open={open} onOpenChange={setOpen}>
+          <DialogContent>
+            <Image
+              src={selectedImage.src}
+              alt={selectedImage.alt}
+              width={selectedImage.width}
+              height={selectedImage.height}
+              className="rounded-lg shadow-lg"
+              quality={100}
+            />
+          </DialogContent>
+        </Dialog>
+      )}
+    </main>
   );
 }

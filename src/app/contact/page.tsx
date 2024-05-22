@@ -249,7 +249,7 @@ export default function ContactPage() {
                 <FormMessage />
               </FormItem>
             )} />
-            <Button variant={"secondary"} type="submit" name="Contact Form Submission Button" disabled={isSubmitting} className="w-full">
+            <Button variant={"secondary"} type="submit" disabled={isSubmitting} className="w-full">
               {isSubmitting && <Icons.spinner className="mr-2 animate-spin" />} Submit
             </Button>
           </form>

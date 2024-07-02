@@ -791,6 +791,46 @@ const images = [
       width: 500,
       height: 750,
     },
+    /*{
+      id: 225,
+      type: "portraits",
+      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port58.jpg",
+      alt: "Portrait Picture 58",
+      width: 500,
+      height: 750,
+    },*/
+    {
+      id: 226,
+      type: "portraits",
+      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port59.jpg",
+      alt: "Portrait Picture 59",
+      width: 500,
+      height: 750,
+    },
+    {
+      id: 227,
+      type: "portraits",
+      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port60.jpg",
+      alt: "Portrait Picture 60",
+      width: 500,
+      height: 750,
+    },
+    {
+      id: 228,
+      type: "portraits",
+      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port61.jpg",
+      alt: "Portrait Picture 61",
+      width: 500,
+      height: 750,
+    },
+    {
+      id: 229,
+      type: "portraits",
+      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port62.jpg",
+      alt: "Portrait Picture 62",
+      width: 500,
+      height: 750,
+    },
 
 
 

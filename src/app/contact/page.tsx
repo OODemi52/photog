@@ -41,7 +41,7 @@ const metadata: Metadata = {
         {
           width: 512,
           height: 512,
-          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+          url: "https://cdn.statically.io/gh/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
         },
       ],
     },
@@ -117,7 +117,7 @@ export default function ContactPage() {
     <main className="flex flex-col md:flex-row w-full md:h-screen">
       <section className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden md:object-top">
         <Image
-          src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port9.jpg"
+          src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port10.jpg"
           alt="Portrait 1"
           className="h-full w-full rounded-lg shadow-lg"
           width={500}

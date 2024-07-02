@@ -13,19 +13,19 @@ const metadata: Metadata = {
       {
         width: 512,
         height: 512,
-        url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+        url: "https://cdn.statically.io/gh/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
       },
     ],
   },
 };
 
 const images = [
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img1.jpg",
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img2.jpg",
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img3.jpg",
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img4.jpg",
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img5.jpg",
-  "https://raw.githubusercontent.com/OODemi52/photogImages/main/hero/img6.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero1.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero2.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero3.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero4.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero5.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero6.jpg",
 ];
 
 export default function Home() {
@@ -60,8 +60,8 @@ export default function Home() {
                 className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${currentImage === index ? "opacity-100" : "opacity-0"}`}
                 src={src}
                 alt={`Hero Image ${index + 1}`}
-                width={500}
-                height={750}
+                width={750}
+                height={500}
                 loading="lazy"
                 quality={75}
               />
@@ -79,7 +79,7 @@ export default function Home() {
           <div className={`w-full md:w-1/2 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
           <Image
               className="h-full w-full object-cover z-[-2]"
-              src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad36.jpg"
+              src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad36.jpg"
               alt="Graduation Picture 36"
               width={500}
               height={750}
@@ -94,7 +94,17 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port47.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port48.jpg"
+                      alt="Portrait Picture 48"
+                      width={500}
+                      height={750}
+                      style={{ objectFit: 'cover' }}
+                      loading="lazy"
+                      quality={75}
+                    />
+                    <Image
+                      className="h-full w-full object-cover"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port47.jpg"
                       alt="Portrait Picture 47"
                       width={500}
                       height={750}
@@ -104,8 +114,8 @@ export default function Home() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port46.jpg"
-                      alt="Portrait Picture 46"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port50.jpg"
+                      alt="Portrait Picture 50"
                       width={500}
                       height={750}
                       style={{ objectFit: 'cover' }}
@@ -114,18 +124,8 @@ export default function Home() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port49.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port49.jpg"
                       alt="Portrait Picture 49"
-                      width={500}
-                      height={750}
-                      style={{ objectFit: 'cover' }}
-                      loading="lazy"
-                      quality={75}
-                    />
-                    <Image
-                      className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port48.jpg"
-                      alt="Portrait Picture 48"
                       width={500}
                       height={750}
                       style={{ objectFit: 'cover' }}
@@ -153,8 +153,8 @@ export default function Home() {
           <div className={`w-full md:w-1/2 transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
           <Image
               className="h-full w-full object-cover"
-              src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event57.jpg"
-              alt="Graduation Picture 5"
+              src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event57.jpg"
+              alt="Event Picture 57"
               width={500}
               height={750}
               style={{ objectFit: 'cover' }}

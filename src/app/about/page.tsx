@@ -10,7 +10,7 @@ const metadata: Metadata = {
         {
           width: 512,
           height: 512,
-          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+          url: "https://cdn.statically.io/gh/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
         },
       ],
     },
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 <div className="relative w-3/5 h-3/5 z-[-1]">
                 <h1 className="text-xl font-thin bottom-0 mb-4 text-center z-[-1]">Demi Daniel-Akanle</h1>
                     <Image
-                        src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port.jpg"
+                        src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port.jpg"
                         alt="Demi Daniel-Akanle"
                         className="h-full w-full rounded-lg drop-shadow-[0_0_5px_#A855F7] animate-fade-in z-[-1]"
                         width={500}

@@ -24,7 +24,7 @@ const metadata: Metadata = {
         {
           width: 512,
           height: 512,
-          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+          url: "https://cdn.statically.io/gh/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
         },
       ],
     },
@@ -42,15 +42,15 @@ export default function ServicesPage() {
         </p>
       </section>
       <section className="flex-grow flex justify-center items-center">
-        <Tabs defaultValue="graduation" className="w-full md:w-4/5 h-full">
+        <Tabs defaultValue="portraits" className="w-full md:w-4/5 h-full">
 
           {/* Tab List */}
           <TabsList className="w-full justify-center items-center flex my-16 mt-32 md:my-6">
             <div className="flex flex-wrap gap-2 justify-center">
-              <TabsTrigger value="graduation" className="py-2 px-3">Graduation</TabsTrigger>
               <TabsTrigger value="portraits" className="py-2 px-3">Portraits</TabsTrigger>
-              <TabsTrigger value="headshots" className="py-2 px-3">Professional Headshots</TabsTrigger>
               <TabsTrigger value="events" className="py-2 px-3">Events</TabsTrigger>
+              <TabsTrigger value="headshots" className="py-2 px-3">Professional Headshots</TabsTrigger>
+              <TabsTrigger value="graduation" className="py-2 px-3">Graduation</TabsTrigger>
               <TabsTrigger value="landscape" className="py-2 px-3">Landscape & Architecture</TabsTrigger>
             </div>
           </TabsList>
@@ -82,7 +82,7 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad2.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad2.jpg"
                       alt="Graduation Picture 2"
                       width={500}
                       height={750}
@@ -92,7 +92,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad5.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad5.jpg"
                       alt="Graduation Picture 5"
                       width={500}
                       height={750}
@@ -102,7 +102,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad19.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad19.jpg"
                       alt="Graduation Picture 19"
                       width={500}
                       height={750}
@@ -112,7 +112,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad32.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad32.jpg"
                       alt="Graduation Picture 32"
                       width={500}
                       height={750}
@@ -124,7 +124,7 @@ export default function ServicesPage() {
                   <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad1.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad1.jpg"
                       alt="Graduation Picture 1"
                       width={500}
                       height={750}
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port19.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port20.jpg"
                       alt="Portrait Picture 19"
                       width={500}
                       height={750}
@@ -173,7 +173,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port3.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port3.jpg"
                       alt="Portrait Picture 3"
                       width={500}
                       height={750}
@@ -183,7 +183,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port17.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port18.jpg"
                       alt="Portrait Picture 17"
                       width={500}
                       height={750}
@@ -193,7 +193,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port57.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port58.jpg"
                       alt="Portrait Picture 57"
                       width={500}
                       height={750}
@@ -205,7 +205,7 @@ export default function ServicesPage() {
                   <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port13.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port14.jpg"
                       alt="Portrait Picture 13"
                       width={500}
                       height={750}
@@ -245,7 +245,7 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head4.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head4.jpg"
                       alt="Professional Headshot Picture 19"
                       width={500}
                       height={750}
@@ -255,7 +255,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head12.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head12.jpg"
                       alt="Professional Headshot Picture 3"
                       width={500}
                       height={750}
@@ -265,7 +265,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head9.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head9.jpg"
                       alt="Professional Headshot Picture 17"
                       width={500}
                       height={750}
@@ -275,7 +275,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head5.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head5.jpg"
                       alt="Professional Headshot Picture 57"
                       width={500}
                       height={750}
@@ -287,7 +287,7 @@ export default function ServicesPage() {
                   <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head2.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head2.jpg"
                       alt="Professional Headshot Picture 13"
                       width={500}
                       height={750}
@@ -317,7 +317,7 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event32.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event32.jpg"
                       alt="Event Picture 32"
                       width={500}
                       height={750}
@@ -327,7 +327,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event85.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event85.jpg"
                       alt="Event Picture 85"
                       width={500}
                       height={750}
@@ -337,7 +337,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event88.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event88.jpg"
                       alt="Event Picture 88"
                       width={500}
                       height={750}
@@ -347,7 +347,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event72.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event72.jpg"
                       alt="Event Picture 72"
                       width={500}
                       height={750}
@@ -359,7 +359,7 @@ export default function ServicesPage() {
                   <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event4.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event4.jpg"
                       alt="Event Picture 4"
                       width={500}
                       height={750}
@@ -389,7 +389,7 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land5.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land5.jpg"
                       alt="Landscape & Architecture 5"
                       width={500}
                       height={750}
@@ -399,7 +399,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land8.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land8.jpg"
                       alt="Landscape & Architecture 8"
                       width={500}
                       height={750}
@@ -409,7 +409,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land15.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land15.jpg"
                       alt="Landscape & Architecture 15"
                       width={500}
                       height={750}
@@ -419,7 +419,7 @@ export default function ServicesPage() {
                     />
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land21.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land21.jpg"
                       alt="Landscape & Architecture 21"
                       width={500}
                       height={750}
@@ -431,7 +431,7 @@ export default function ServicesPage() {
                   <div className="lg:w-1/4 w-full lg:my-auto h-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover"
-                      src="https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land2.jpg"
+                      src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land2.jpg"
                       alt="Landscape & Architecture Picture 2"
                       width={500}
                       height={750}

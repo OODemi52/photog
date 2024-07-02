@@ -22,7 +22,7 @@ const images = [
   {
     id: 1,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad1.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad1.jpg",
     alt: "Graduation Picture 1",
     width: 500,
     height: 750,
@@ -30,7 +30,7 @@ const images = [
   {
     id: 2,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad2.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad2.jpg",
     alt: "Graduation Picture 2",
     width: 500,
     height: 750,
@@ -38,7 +38,7 @@ const images = [
   {
     id: 3,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad3.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad3.jpg",
     alt: "Graduation Picture 3",
     width: 500,
     height: 750,
@@ -46,7 +46,7 @@ const images = [
   {
     id: 4,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad4.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad4.jpg",
     alt: "Graduation Picture 4",
     width: 500,
     height: 750,
@@ -54,7 +54,7 @@ const images = [
   {
     id: 5,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad5.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad5.jpg",
     alt: "Graduation Picture 5",
     width: 500,
     height: 750,
@@ -62,7 +62,7 @@ const images = [
   {
     id: 6,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad6.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad6.jpg",
     alt: "Graduation Picture 6",
     width: 500,
     height: 750,
@@ -70,7 +70,7 @@ const images = [
   /*{
     id: 7,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad7.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad7.jpg",
     alt: "Graduation Picture 7",
     width: 500,
     height: 750,
@@ -78,7 +78,7 @@ const images = [
   {
     id: 8,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad8.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad8.jpg",
     alt: "Graduation Picture 8",
     width: 500,
     height: 750,
@@ -86,7 +86,7 @@ const images = [
   {
     id: 9,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad9.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad9.jpg",
     alt: "Graduation Picture 9",
     width: 500,
     height: 750,
@@ -94,7 +94,7 @@ const images = [
   {
     id: 10,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad10.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad10.jpg",
     alt: "Graduation Picture 10",
     width: 500,
     height: 750,
@@ -102,7 +102,7 @@ const images = [
   {
     id: 11,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad11.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad11.jpg",
     alt: "Graduation Picture 11",
     width: 500,
     height: 750,
@@ -110,7 +110,7 @@ const images = [
   {
     id: 12,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad12.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad12.jpg",
     alt: "Graduation Picture 12",
     width: 500,
     height: 750,
@@ -118,7 +118,7 @@ const images = [
   {
     id: 13,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad13.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad13.jpg",
     alt: "Graduation Picture 13",
     width: 500,
     height: 750,
@@ -126,7 +126,7 @@ const images = [
   {
     id: 14,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad14.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad14.jpg",
     alt: "Graduation Picture 14",
     width: 500,
     height: 750,
@@ -134,7 +134,7 @@ const images = [
   {
     id: 15,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad15.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad15.jpg",
     alt: "Graduation Picture 15",
     width: 500,
     height: 750,
@@ -142,7 +142,7 @@ const images = [
   /*{
     id: 16,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad16.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad16.jpg",
     alt: "Graduation Picture 16",
     width: 500,
     height: 750,
@@ -150,7 +150,7 @@ const images = [
   {
     id: 17,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad17.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad17.jpg",
     alt: "Graduation Picture 17",
     width: 500,
     height: 750,
@@ -158,7 +158,7 @@ const images = [
   {
     id: 18,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad18.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad18.jpg",
     alt: "Graduation Picture 18",
     width: 500,
     height: 750,
@@ -166,7 +166,7 @@ const images = [
   {
     id: 19,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad19.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad19.jpg",
     alt: "Graduation Picture 19",
     width: 500,
     height: 750,
@@ -174,7 +174,7 @@ const images = [
   {
     id: 20,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad20.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad20.jpg",
     alt: "Graduation Picture 20",
     width: 500,
     height: 750,
@@ -182,7 +182,7 @@ const images = [
   {
     id: 21,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad21.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad21.jpg",
     alt: "Graduation Picture 21",
     width: 500,
     height: 750,
@@ -190,7 +190,7 @@ const images = [
   {
     id: 22,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad22.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad22.jpg",
     alt: "Graduation Picture 22",
     width: 500,
     height: 750,
@@ -198,7 +198,7 @@ const images = [
   {
     id: 23,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad23.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad23.jpg",
     alt: "Graduation Picture 23",
     width: 500,
     height: 750,
@@ -206,7 +206,7 @@ const images = [
   {
     id: 24,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad24.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad24.jpg",
     alt: "Graduation Picture 24",
     width: 500,
     height: 750,
@@ -214,7 +214,7 @@ const images = [
   {
     id: 25,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad25.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad25.jpg",
     alt: "Graduation Picture 25",
     width: 500,
     height: 750,
@@ -222,7 +222,7 @@ const images = [
   {
     id: 26,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad26.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad26.jpg",
     alt: "Graduation Picture 26",
     width: 500,
     height: 750,
@@ -230,7 +230,7 @@ const images = [
   {
     id: 27,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad27.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad27.jpg",
     alt: "Graduation Picture 27",
     width: 500,
     height: 750,
@@ -238,7 +238,7 @@ const images = [
   {
     id: 28,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad28.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad28.jpg",
     alt: "Graduation Picture 28",
     width: 500,
     height: 750,
@@ -246,7 +246,7 @@ const images = [
   {
     id: 29,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad29.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad29.jpg",
     alt: "Graduation Picture 29",
     width: 500,
     height: 750,
@@ -254,7 +254,7 @@ const images = [
   {
     id: 30,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad30.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad30.jpg",
     alt: "Graduation Picture 30",
     width: 500,
     height: 750,
@@ -262,7 +262,7 @@ const images = [
   {
     id: 31,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad31.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad31.jpg",
     alt: "Graduation Picture 31",
     width: 500,
     height: 750,
@@ -270,7 +270,7 @@ const images = [
   {
     id: 32,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad32.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad32.jpg",
     alt: "Graduation Picture 32",
     width: 500,
     height: 750,
@@ -278,7 +278,7 @@ const images = [
   {
     id: 33,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad33.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad33.jpg",
     alt: "Graduation Picture 33",
     width: 500,
     height: 750,
@@ -286,7 +286,7 @@ const images = [
   {
     id: 34,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad34.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad34.jpg",
     alt: "Graduation Picture 34",
     width: 500,
     height: 750,
@@ -294,7 +294,7 @@ const images = [
   {
     id: 35,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad35.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad35.jpg",
     alt: "Graduation Picture 35",
     width: 500,
     height: 750,
@@ -302,7 +302,7 @@ const images = [
   {
     id: 36,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad36.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad36.jpg",
     alt: "Graduation Picture 36",
     width: 500,
     height: 750,
@@ -310,7 +310,7 @@ const images = [
   {
     id: 37,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad37.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad37.jpg",
     alt: "Graduation Picture 37",
     width: 500,
     height: 750,
@@ -318,7 +318,7 @@ const images = [
   {
     id: 38,
     type: "graduation",
-    src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/graduation/grad38.jpg",
+    src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad38.jpg",
     alt: "Graduation Picture 38",
     width: 500,
     height: 750,
@@ -330,7 +330,7 @@ const images = [
   /*{
       id: 39,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port1.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port1.jpg",
       alt: "Portrait Picture 1",
       width: 500,
       height: 750,
@@ -338,7 +338,7 @@ const images = [
     {
       id: 40,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port2.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port2.jpg",
       alt: "Portrait Picture 2",
       width: 500,
       height: 750,
@@ -346,7 +346,7 @@ const images = [
     {
       id: 41,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port3.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port3.jpg",
       alt: "Portrait Picture 3",
       width: 500,
       height: 750,
@@ -354,7 +354,7 @@ const images = [
     {
       id: 42,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port4.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port4.jpg",
       alt: "Portrait Picture 4",
       width: 500,
       height: 750,
@@ -362,7 +362,7 @@ const images = [
     /*{
       id: 43,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port5.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port5.jpg",
       alt: "Portrait Picture 5",
       width: 500,
       height: 750,
@@ -370,7 +370,7 @@ const images = [
     {
       id: 44,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port5.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port5.jpg",
       alt: "Portrait Picture 5 (duplicate)",
       width: 500,
       height: 750,
@@ -378,7 +378,7 @@ const images = [
     {
       id: 45,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port6.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port6.jpg",
       alt: "Portrait Picture 6",
       width: 500,
       height: 750,
@@ -386,7 +386,7 @@ const images = [
     {
       id: 46,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port7.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port7.jpg",
       alt: "Portrait Picture 7",
       width: 500,
       height: 750,
@@ -394,7 +394,7 @@ const images = [
     {
       id: 47,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port8.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port8.jpg",
       alt: "Portrait Picture 8",
       width: 500,
       height: 750,
@@ -402,7 +402,7 @@ const images = [
     {
       id: 48,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port9.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port9.jpg",
       alt: "Portrait Picture 9",
       width: 500,
       height: 750,
@@ -410,7 +410,7 @@ const images = [
     {
       id: 49,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port10.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port10.jpg",
       alt: "Portrait Picture 10",
       width: 500,
       height: 750,
@@ -418,7 +418,7 @@ const images = [
     {
       id: 50,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port11.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port11.jpg",
       alt: "Portrait Picture 11",
       width: 500,
       height: 750,
@@ -426,7 +426,7 @@ const images = [
     {
       id: 51,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port12.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port12.jpg",
       alt: "Portrait Picture 12",
       width: 500,
       height: 750,
@@ -434,7 +434,7 @@ const images = [
     /*{
       id: 52,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port13.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port13.jpg",
       alt: "Portrait Picture 13",
       width: 500,
       height: 750,
@@ -442,7 +442,7 @@ const images = [
     {
       id: 53,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port14.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port14.jpg",
       alt: "Portrait Picture 14",
       width: 500,
       height: 750,
@@ -450,7 +450,7 @@ const images = [
     {
       id: 54,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port15.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port15.jpg",
       alt: "Portrait Picture 15",
       width: 500,
       height: 750,
@@ -458,7 +458,7 @@ const images = [
     {
       id: 55,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port16.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port16.jpg",
       alt: "Portrait Picture 16",
       width: 500,
       height: 750,
@@ -466,7 +466,7 @@ const images = [
     /*{
       id: 56,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port17.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port17.jpg",
       alt: "Portrait Picture 17",
       width: 500,
       height: 750,
@@ -474,7 +474,7 @@ const images = [
     {
       id: 57,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port18.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port18.jpg",
       alt: "Portrait Picture 18",
       width: 500,
       height: 750,
@@ -482,7 +482,7 @@ const images = [
     {
       id: 58,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port19.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port19.jpg",
       alt: "Portrait Picture 19",
       width: 500,
       height: 750,
@@ -490,7 +490,7 @@ const images = [
     {
       id: 59,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port20.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port20.jpg",
       alt: "Portrait Picture 20",
       width: 500,
       height: 750,
@@ -498,7 +498,7 @@ const images = [
     {
       id: 60,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port21.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port21.jpg",
       alt: "Portrait Picture 21",
       width: 500,
       height: 750,
@@ -506,7 +506,7 @@ const images = [
     /*{
       id: 61,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port22.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port22.jpg",
       alt: "Portrait Picture 22",
       width: 500,
       height: 750,
@@ -514,7 +514,7 @@ const images = [
     {
       id: 62,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port23.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port23.jpg",
       alt: "Portrait Picture 23",
       width: 500,
       height: 750,
@@ -522,7 +522,7 @@ const images = [
     {
       id: 63,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port24.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port24.jpg",
       alt: "Portrait Picture 24",
       width: 500,
       height: 750,
@@ -530,7 +530,7 @@ const images = [
     /*{
       id: 64,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port25.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port25.jpg",
       alt: "Portrait Picture 25",
       width: 500,
       height: 750,
@@ -538,7 +538,7 @@ const images = [
     {
       id: 65,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port26.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port26.jpg",
       alt: "Portrait Picture 26",
       width: 500,
       height: 750,
@@ -546,7 +546,7 @@ const images = [
     {
       id: 66,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port27.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port27.jpg",
       alt: "Portrait Picture 27",
       width: 500,
       height: 750,
@@ -554,7 +554,7 @@ const images = [
     {
       id: 67,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port28.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port28.jpg",
       alt: "Portrait Picture 28",
       width: 500,
       height: 750,
@@ -562,7 +562,7 @@ const images = [
     {
       id: 68,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port29.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port29.jpg",
       alt: "Portrait Picture 29",
       width: 500,
       height: 750,
@@ -570,7 +570,7 @@ const images = [
     {
       id: 69,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port30.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port30.jpg",
       alt: "Portrait Picture 30",
       width: 500,
       height: 750,
@@ -578,7 +578,7 @@ const images = [
     /*{
       id: 70,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port31.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port31.jpg",
       alt: "Portrait Picture 31",
       width: 500,
       height: 750,
@@ -586,7 +586,7 @@ const images = [
     {
       id: 71,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port32.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port32.jpg",
       alt: "Portrait Picture 32",
       width: 500,
       height: 750,
@@ -594,7 +594,7 @@ const images = [
     {
       id: 72,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port33.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port33.jpg",
       alt: "Portrait Picture 33",
       width: 500,
       height: 750,
@@ -602,7 +602,7 @@ const images = [
     {
       id: 73,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port34.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port34.jpg",
       alt: "Portrait Picture 34",
       width: 500,
       height: 750,
@@ -610,7 +610,7 @@ const images = [
     {
       id: 74,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port35.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port35.jpg",
       alt: "Portrait Picture 35",
       width: 500,
       height: 750,
@@ -618,7 +618,7 @@ const images = [
     {
       id: 75,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port36.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port36.jpg",
       alt: "Portrait Picture 36",
       width: 500,
       height: 750,
@@ -626,7 +626,7 @@ const images = [
     /*{
       id: 76,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port37.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port37.jpg",
       alt: "Portrait Picture 37",
       width: 500,
       height: 750,
@@ -634,7 +634,7 @@ const images = [
     {
       id: 77,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port38.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port38.jpg",
       alt: "Portrait Picture 38",
       width: 500,
       height: 750,
@@ -642,7 +642,7 @@ const images = [
     {
       id: 78,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port39.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port39.jpg",
       alt: "Portrait Picture 39",
       width: 500,
       height: 750,
@@ -650,7 +650,7 @@ const images = [
     {
       id: 79,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port40.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port40.jpg",
       alt: "Portrait Picture 40",
       width: 500,
       height: 750,
@@ -658,7 +658,7 @@ const images = [
     /*{
       id: 80,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port41.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port41.jpg",
       alt: "Portrait Picture 41",
       width: 500,
       height: 750,
@@ -666,7 +666,7 @@ const images = [
     {
       id: 81,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port42.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port42.jpg",
       alt: "Portrait Picture 42",
       width: 500,
       height: 750,
@@ -674,7 +674,7 @@ const images = [
     {
       id: 82,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port43.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port43.jpg",
       alt: "Portrait Picture 43",
       width: 500,
       height: 750,
@@ -682,7 +682,7 @@ const images = [
     {
       id: 83,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port44.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port44.jpg",
       alt: "Portrait Picture 44",
       width: 500,
       height: 750,
@@ -690,7 +690,7 @@ const images = [
     /*{
       id: 84,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port45.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port45.jpg",
       alt: "Portrait Picture 45",
       width: 500,
       height: 750,
@@ -698,7 +698,7 @@ const images = [
     {
       id: 85,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port46.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port46.jpg",
       alt: "Portrait Picture 46",
       width: 500,
       height: 750,
@@ -706,7 +706,7 @@ const images = [
     /*{
       id: 86,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port47.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port47.jpg",
       alt: "Portrait Picture 47",
       width: 500,
       height: 750,
@@ -714,7 +714,7 @@ const images = [
     {
       id: 87,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port48.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port48.jpg",
       alt: "Portrait Picture 48",
       width: 500,
       height: 750,
@@ -722,7 +722,7 @@ const images = [
     {
       id: 88,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port49.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port49.jpg",
       alt: "Portrait Picture 49",
       width: 500,
       height: 750,
@@ -730,7 +730,7 @@ const images = [
     {
       id: 89,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port50.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port50.jpg",
       alt: "Portrait Picture 50",
       width: 500,
       height: 750,
@@ -738,7 +738,7 @@ const images = [
     {
       id: 90,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port51.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port51.jpg",
       alt: "Portrait Picture 51",
       width: 500,
       height: 750,
@@ -746,7 +746,7 @@ const images = [
     {
       id: 91,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port52.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port52.jpg",
       alt: "Portrait Picture 52",
       width: 500,
       height: 750,
@@ -754,7 +754,7 @@ const images = [
     {
       id: 92,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port53.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port53.jpg",
       alt: "Portrait Picture 53",
       width: 500,
       height: 750,
@@ -762,7 +762,7 @@ const images = [
     {
       id: 93,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port54.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port54.jpg",
       alt: "Portrait Picture 54",
       width: 500,
       height: 750,
@@ -770,7 +770,7 @@ const images = [
     {
       id: 94,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port55.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port55.jpg",
       alt: "Portrait Picture 55",
       width: 500,
       height: 750,
@@ -778,7 +778,7 @@ const images = [
     {
       id: 95,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port56.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port56.jpg",
       alt: "Portrait Picture 56",
       width: 500,
       height: 750,
@@ -786,7 +786,7 @@ const images = [
     {
       id: 96,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port57.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port57.jpg",
       alt: "Portrait Picture 57",
       width: 500,
       height: 750,
@@ -794,7 +794,7 @@ const images = [
     /*{
       id: 225,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port58.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port58.jpg",
       alt: "Portrait Picture 58",
       width: 500,
       height: 750,
@@ -802,7 +802,7 @@ const images = [
     {
       id: 226,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port59.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port59.jpg",
       alt: "Portrait Picture 59",
       width: 500,
       height: 750,
@@ -810,7 +810,7 @@ const images = [
     {
       id: 227,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port60.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port60.jpg",
       alt: "Portrait Picture 60",
       width: 500,
       height: 750,
@@ -818,7 +818,7 @@ const images = [
     {
       id: 228,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port61.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port61.jpg",
       alt: "Portrait Picture 61",
       width: 500,
       height: 750,
@@ -826,7 +826,7 @@ const images = [
     {
       id: 229,
       type: "portraits",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/portraits/port62.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port62.jpg",
       alt: "Portrait Picture 62",
       width: 500,
       height: 750,
@@ -838,7 +838,7 @@ const images = [
     {
       id: 97,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head1.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head1.jpg",
       alt: "Professional Headshot 1",
       width: 500,
       height: 750,
@@ -846,7 +846,7 @@ const images = [
     /*{
       id: 98,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head2.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head2.jpg",
       alt: "Professional Headshot 2",
       width: 500,
       height: 750,
@@ -854,7 +854,7 @@ const images = [
     {
       id: 99,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head3.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head3.jpg",
       alt: "Professional Headshot 3",
       width: 500,
       height: 750,
@@ -862,7 +862,7 @@ const images = [
     {
       id: 100,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head4.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head4.jpg",
       alt: "Professional Headshot 4",
       width: 500,
       height: 750,
@@ -870,7 +870,7 @@ const images = [
     /*{
       id: 101,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head5.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head5.jpg",
       alt: "Professional Headshot 5",
       width: 500,
       height: 750,
@@ -878,7 +878,7 @@ const images = [
     {
       id: 102,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head6.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head6.jpg",
       alt: "Professional Headshot 6",
       width: 500,
       height: 750,
@@ -886,7 +886,7 @@ const images = [
     {
       id: 103,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head7.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head7.jpg",
       alt: "Professional Headshot 7",
       width: 500,
       height: 750,
@@ -894,7 +894,7 @@ const images = [
     {
       id: 104,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head8.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head8.jpg",
       alt: "Professional Headshot 8",
       width: 500,
       height: 750,
@@ -902,7 +902,7 @@ const images = [
     {
       id: 105,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head9.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head9.jpg",
       alt: "Professional Headshot 9",
       width: 500,
       height: 750,
@@ -910,7 +910,7 @@ const images = [
     {
       id: 106,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head10.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head10.jpg",
       alt: "Professional Headshot 10",
       width: 500,
       height: 750,
@@ -918,7 +918,7 @@ const images = [
     {
       id: 107,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head11.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head11.jpg",
       alt: "Professional Headshot 11",
       width: 500,
       height: 750,
@@ -926,7 +926,7 @@ const images = [
     {
       id: 108,
       type: "headshots",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/headshots/head12.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head12.jpg",
       alt: "Professional Headshot 12",
       width: 500,
       height: 750,
@@ -938,7 +938,7 @@ const images = [
     /*{
       id: 109,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event1.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event1.jpg",
       alt: "Event Picture 1",
       width: 500,
       height: 750,
@@ -946,7 +946,7 @@ const images = [
     {
       id: 110,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event2.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event2.jpg",
       alt: "Event Picture 2",
       width: 500,
       height: 750,
@@ -954,7 +954,7 @@ const images = [
     {
       id: 111,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event3.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event3.jpg",
       alt: "Event Picture 3",
       width: 500,
       height: 750,
@@ -962,7 +962,7 @@ const images = [
     {
       id: 112,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event4.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event4.jpg",
       alt: "Event Picture 4",
       width: 500,
       height: 750,
@@ -970,7 +970,7 @@ const images = [
     /*{
       id: 113,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event5.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event5.jpg",
       alt: "Event Picture 5",
       width: 500,
       height: 750,
@@ -978,7 +978,7 @@ const images = [
     {
       id: 114,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event6.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event6.jpg",
       alt: "Event Picture 6",
       width: 500,
       height: 750,
@@ -986,7 +986,7 @@ const images = [
     {
       id: 115,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event7.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event7.jpg",
       alt: "Event Picture 7",
       width: 500,
       height: 750,
@@ -994,7 +994,7 @@ const images = [
     {
       id: 116,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event8.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event8.jpg",
       alt: "Event Picture 8",
       width: 500,
       height: 750,
@@ -1002,7 +1002,7 @@ const images = [
     {
       id: 117,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event9.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event9.jpg",
       alt: "Event Picture 9",
       width: 500,
       height: 750,
@@ -1010,7 +1010,7 @@ const images = [
    /*{
       id: 118,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event10.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event10.jpg",
       alt: "Event Picture 10",
       width: 500,
       height: 750,
@@ -1018,7 +1018,7 @@ const images = [
     {
       id: 119,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event11.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event11.jpg",
       alt: "Event Picture 11",
       width: 500,
       height: 750,
@@ -1026,7 +1026,7 @@ const images = [
     {
       id: 120,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event12.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event12.jpg",
       alt: "Event Picture 12",
       width: 500,
       height: 750,
@@ -1034,7 +1034,7 @@ const images = [
     {
       id: 121,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event13.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event13.jpg",
       alt: "Event Picture 13",
       width: 500,
       height: 750,
@@ -1042,7 +1042,7 @@ const images = [
     {
       id: 122,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event14.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event14.jpg",
       alt: "Event Picture 14",
       width: 500,
       height: 750,
@@ -1050,7 +1050,7 @@ const images = [
     {
       id: 123,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event15.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event15.jpg",
       alt: "Event Picture 15",
       width: 500,
       height: 750,
@@ -1058,7 +1058,7 @@ const images = [
     {
       id: 124,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event16.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event16.jpg",
       alt: "Event Picture 16",
       width: 500,
       height: 750,
@@ -1066,7 +1066,7 @@ const images = [
     {
       id: 125,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event17.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event17.jpg",
       alt: "Event Picture 17",
       width: 500,
       height: 750,
@@ -1074,7 +1074,7 @@ const images = [
     {
       id: 126,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event18.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event18.jpg",
       alt: "Event Picture 18",
       width: 500,
       height: 750,
@@ -1082,7 +1082,7 @@ const images = [
     {
       id: 127,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event19.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event19.jpg",
       alt: "Event Picture 19",
       width: 500,
       height: 750,
@@ -1090,7 +1090,7 @@ const images = [
     {
       id: 128,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event20.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event20.jpg",
       alt: "Event Picture 20",
       width: 500,
       height: 750,
@@ -1098,7 +1098,7 @@ const images = [
     {
       id: 129,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event21.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event21.jpg",
       alt: "Event Picture 21",
       width: 500,
       height: 750,
@@ -1106,7 +1106,7 @@ const images = [
     {
       id: 130,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event22.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event22.jpg",
       alt: "Event Picture 22",
       width: 500,
       height: 750,
@@ -1114,7 +1114,7 @@ const images = [
     {
       id: 131,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event23.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event23.jpg",
       alt: "Event Picture 23",
       width: 500,
       height: 750,
@@ -1122,7 +1122,7 @@ const images = [
     /*{
       id: 132,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event24.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event24.jpg",
       alt: "Event Picture 24",
       width: 500,
       height: 750,
@@ -1130,7 +1130,7 @@ const images = [
     {
       id: 133,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event25.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event25.jpg",
       alt: "Event Picture 25",
       width: 500,
       height: 750,
@@ -1138,7 +1138,7 @@ const images = [
     {
       id: 134,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event26.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event26.jpg",
       alt: "Event Picture 26",
       width: 500,
       height: 750,
@@ -1146,7 +1146,7 @@ const images = [
     {
       id: 135,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event27.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event27.jpg",
       alt: "Event Picture 27",
       width: 500,
       height: 750,
@@ -1154,7 +1154,7 @@ const images = [
     {
       id: 136,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event28.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event28.jpg",
       alt: "Event Picture 28",
       width: 500,
       height: 750,
@@ -1162,7 +1162,7 @@ const images = [
     {
       id: 137,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event29.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event29.jpg",
       alt: "Event Picture 29",
       width: 500,
       height: 750,
@@ -1170,7 +1170,7 @@ const images = [
     {
       id: 138,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event30.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event30.jpg",
       alt: "Event Picture 30",
       width: 500,
       height: 750,
@@ -1178,7 +1178,7 @@ const images = [
     {
       id: 139,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event31.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event31.jpg",
       alt: "Event Picture 31",
       width: 500,
       height: 750,
@@ -1186,7 +1186,7 @@ const images = [
     {
       id: 140,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event32.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event32.jpg",
       alt: "Event Picture 32",
       width: 500,
       height: 750,
@@ -1194,7 +1194,7 @@ const images = [
     {
       id: 141,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event33.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event33.jpg",
       alt: "Event Picture 33",
       width: 500,
       height: 750,
@@ -1202,7 +1202,7 @@ const images = [
     {
       id: 142,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event34.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event34.jpg",
       alt: "Event Picture 34",
       width: 500,
       height: 750,
@@ -1210,7 +1210,7 @@ const images = [
     {
       id: 143,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event35.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event35.jpg",
       alt: "Event Picture 35",
       width: 500,
       height: 750,
@@ -1218,7 +1218,7 @@ const images = [
     {
       id: 144,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event36.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event36.jpg",
       alt: "Event Picture 36",
       width: 500,
       height: 750,
@@ -1226,7 +1226,7 @@ const images = [
     /*{
       id: 145,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event37.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event37.jpg",
       alt: "Event Picture 37",
       width: 500,
       height: 750,
@@ -1234,7 +1234,7 @@ const images = [
     {
       id: 146,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event38.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event38.jpg",
       alt: "Event Picture 38",
       width: 500,
       height: 750,
@@ -1242,7 +1242,7 @@ const images = [
     {
       id: 147,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event39.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event39.jpg",
       alt: "Event Picture 39",
       width: 500,
       height: 750,
@@ -1250,7 +1250,7 @@ const images = [
     {
       id: 148,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event40.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event40.jpg",
       alt: "Event Picture 40",
       width: 500,
       height: 750,
@@ -1258,7 +1258,7 @@ const images = [
     {
       id: 149,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event41.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event41.jpg",
       alt: "Event Picture 41",
       width: 500,
       height: 750,
@@ -1266,7 +1266,7 @@ const images = [
     {
       id: 150,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event42.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event42.jpg",
       alt: "Event Picture 42",
       width: 500,
       height: 750,
@@ -1274,7 +1274,7 @@ const images = [
     /*{
       id: 151,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event43.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event43.jpg",
       alt: "Event Picture 43",
       width: 500,
       height: 750,
@@ -1282,7 +1282,7 @@ const images = [
     {
       id: 152,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event44.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event44.jpg",
       alt: "Event Picture 44",
       width: 500,
       height: 750,
@@ -1290,7 +1290,7 @@ const images = [
     {
       id: 153,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event45.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event45.jpg",
       alt: "Event Picture 45",
       width: 500,
       height: 750,
@@ -1298,7 +1298,7 @@ const images = [
     /*{
       id: 154,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event46.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event46.jpg",
       alt: "Event Picture 46",
       width: 500,
       height: 750,
@@ -1306,7 +1306,7 @@ const images = [
     {
       id: 155,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event47.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event47.jpg",
       alt: "Event Picture 47",
       width: 500,
       height: 750,
@@ -1314,7 +1314,7 @@ const images = [
     /*{
       id: 156,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event48.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event48.jpg",
       alt: "Event Picture 48",
       width: 500,
       height: 750,
@@ -1322,7 +1322,7 @@ const images = [
     {
       id: 157,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event49.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event49.jpg",
       alt: "Event Picture 49",
       width: 500,
       height: 750,
@@ -1330,7 +1330,7 @@ const images = [
     {
       id: 158,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event50.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event50.jpg",
       alt: "Event Picture 50",
       width: 500,
       height: 750,
@@ -1338,7 +1338,7 @@ const images = [
     {
       id: 159,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event51.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event51.jpg",
       alt: "Event Picture 51",
       width: 500,
       height: 750,
@@ -1346,7 +1346,7 @@ const images = [
     {
       id: 160,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event52.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event52.jpg",
       alt: "Event Picture 52",
       width: 500,
       height: 750,
@@ -1354,7 +1354,7 @@ const images = [
     {
       id: 161,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event53.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event53.jpg",
       alt: "Event Picture 53",
       width: 500,
       height: 750,
@@ -1362,7 +1362,7 @@ const images = [
     {
       id: 162,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event54.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event54.jpg",
       alt: "Event Picture 54",
       width: 500,
       height: 750,
@@ -1370,7 +1370,7 @@ const images = [
     {
       id: 163,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event55.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event55.jpg",
       alt: "Event Picture 55",
       width: 500,
       height: 750,
@@ -1378,7 +1378,7 @@ const images = [
     {
       id: 164,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event56.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event56.jpg",
       alt: "Event Picture 56",
       width: 500,
       height: 750,
@@ -1386,7 +1386,7 @@ const images = [
     {
       id: 165,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event57.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event57.jpg",
       alt: "Event Picture 57",
       width: 500,
       height: 750,
@@ -1394,7 +1394,7 @@ const images = [
     /*{
       id: 166,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event58.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event58.jpg",
       alt: "Event Picture 58",
       width: 500,
       height: 750,
@@ -1402,7 +1402,7 @@ const images = [
     {
       id: 167,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event59.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event59.jpg",
       alt: "Event Picture 59",
       width: 500,
       height: 750,
@@ -1410,7 +1410,7 @@ const images = [
     {
       id: 168,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event60.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event60.jpg",
       alt: "Event Picture 60",
       width: 500,
       height: 750,
@@ -1418,7 +1418,7 @@ const images = [
     {
       id: 169,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event61.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event61.jpg",
       alt: "Event Picture 61",
       width: 500,
       height: 750,
@@ -1426,7 +1426,7 @@ const images = [
     {
       id: 170,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event62.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event62.jpg",
       alt: "Event Picture 62",
       width: 500,
       height: 750,
@@ -1434,7 +1434,7 @@ const images = [
     {
       id: 171,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event63.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event63.jpg",
       alt: "Event Picture 63",
       width: 500,
       height: 750,
@@ -1442,7 +1442,7 @@ const images = [
     {
       id: 172,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event64.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event64.jpg",
       alt: "Event Picture 64",
       width: 500,
       height: 750,
@@ -1450,7 +1450,7 @@ const images = [
     {
       id: 173,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event65.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event65.jpg",
       alt: "Event Picture 65",
       width: 500,
       height: 750,
@@ -1458,7 +1458,7 @@ const images = [
     /*{
       id: 174,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event66.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event66.jpg",
       alt: "Event Picture 66",
       width: 500,
       height: 750,
@@ -1466,7 +1466,7 @@ const images = [
     {
       id: 175,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event67.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event67.jpg",
       alt: "Event Picture 67",
       width: 500,
       height: 750,
@@ -1474,7 +1474,7 @@ const images = [
     /*{
       id: 176,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event68.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event68.jpg",
       alt: "Event Picture 68",
       width: 500,
       height: 750,
@@ -1482,7 +1482,7 @@ const images = [
     {
       id: 177,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event69.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event69.jpg",
       alt: "Event Picture 69",
       width: 500,
       height: 750,
@@ -1490,7 +1490,7 @@ const images = [
     {
       id: 178,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event70.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event70.jpg",
       alt: "Event Picture 70",
       width: 500,
       height: 750,
@@ -1498,7 +1498,7 @@ const images = [
     {
       id: 179,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event71.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event71.jpg",
       alt: "Event Picture 71",
       width: 500,
       height: 750,
@@ -1506,7 +1506,7 @@ const images = [
     {
       id: 180,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event72.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event72.jpg",
       alt: "Event Picture 72",
       width: 500,
       height: 750,
@@ -1514,7 +1514,7 @@ const images = [
     {
       id: 181,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event73.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event73.jpg",
       alt: "Event Picture 73",
       width: 500,
       height: 750,
@@ -1522,7 +1522,7 @@ const images = [
     {
       id: 182,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event74.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event74.jpg",
       alt: "Event Picture 74",
       width: 500,
       height: 750,
@@ -1530,7 +1530,7 @@ const images = [
     /*{
       id: 183,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event75.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event75.jpg",
       alt: "Event Picture 75",
       width: 500,
       height: 750,
@@ -1538,7 +1538,7 @@ const images = [
     {
       id: 184,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event76.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event76.jpg",
       alt: "Event Picture 76",
       width: 500,
       height: 750,
@@ -1546,7 +1546,7 @@ const images = [
     {
       id: 185,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event77.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event77.jpg",
       alt: "Event Picture 77",
       width: 500,
       height: 750,
@@ -1554,7 +1554,7 @@ const images = [
     {
       id: 186,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event78.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event78.jpg",
       alt: "Event Picture 78",
       width: 500,
       height: 750,
@@ -1562,7 +1562,7 @@ const images = [
     {
       id: 187,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event79.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event79.jpg",
       alt: "Event Picture 79",
       width: 500,
       height: 750,
@@ -1570,7 +1570,7 @@ const images = [
     {
       id: 188,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event80.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event80.jpg",
       alt: "Event Picture 80",
       width: 500,
       height: 750,
@@ -1578,7 +1578,7 @@ const images = [
     {
       id: 189,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event81.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event81.jpg",
       alt: "Event Picture 81",
       width: 500,
       height: 750,
@@ -1586,7 +1586,7 @@ const images = [
     /*{
       id: 190,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event82.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event82.jpg",
       alt: "Event Picture 82",
       width: 500,
       height: 750,
@@ -1594,7 +1594,7 @@ const images = [
     {
       id: 191,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event83.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event83.jpg",
       alt: "Event Picture 83",
       width: 500,
       height: 750,
@@ -1602,7 +1602,7 @@ const images = [
     {
       id: 192,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event84.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event84.jpg",
       alt: "Event Picture 84",
       width: 500,
       height: 750,
@@ -1610,7 +1610,7 @@ const images = [
     {
       id: 193,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event85.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event85.jpg",
       alt: "Event Picture 85",
       width: 500,
       height: 750,
@@ -1618,7 +1618,7 @@ const images = [
     {
       id: 194,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event86.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event86.jpg",
       alt: "Event Picture 86",
       width: 500,
       height: 750,
@@ -1626,7 +1626,7 @@ const images = [
     {
       id: 195,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event87.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event87.jpg",
       alt: "Event Picture 87",
       width: 500,
       height: 750,
@@ -1634,7 +1634,7 @@ const images = [
     {
       id: 196,
       type: "events",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/event/event88.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event88.jpg",
       alt: "Event Picture 88",
       width: 500,
       height: 750,
@@ -1646,7 +1646,7 @@ const images = [
     {
       id: 197,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land1.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land1.jpg",
       alt: "Landscape & Architecture Picture 1",
       width: 500,
       height: 750,
@@ -1654,7 +1654,7 @@ const images = [
     {
       id: 198,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land2.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land2.jpg",
       alt: "Landscape & Architecture Picture 2",
       width: 500,
       height: 750,
@@ -1662,7 +1662,7 @@ const images = [
     {
       id: 199,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land3.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land3.jpg",
       alt: "Landscape & Architecture Picture 3",
       width: 500,
       height: 750,
@@ -1670,7 +1670,7 @@ const images = [
     {
       id: 200,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land4.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land4.jpg",
       alt: "Landscape & Architecture Picture 4",
       width: 500,
       height: 750,
@@ -1678,7 +1678,7 @@ const images = [
     {
       id: 201,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land5.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land5.jpg",
       alt: "Landscape & Architecture Picture 5",
       width: 500,
       height: 750,
@@ -1686,7 +1686,7 @@ const images = [
     {
       id: 202,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land6.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land6.jpg",
       alt: "Landscape & Architecture Picture 6",
       width: 500,
       height: 750,
@@ -1694,7 +1694,7 @@ const images = [
     {
       id: 203,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land7.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land7.jpg",
       alt: "Landscape & Architecture Picture 7",
       width: 500,
       height: 750,
@@ -1702,7 +1702,7 @@ const images = [
     {
       id: 204,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land8.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land8.jpg",
       alt: "Landscape & Architecture Picture 8",
       width: 500,
       height: 750,
@@ -1710,7 +1710,7 @@ const images = [
     {
       id: 205,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land9.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land9.jpg",
       alt: "Landscape & Architecture Picture 9",
       width: 500,
       height: 750,
@@ -1718,7 +1718,7 @@ const images = [
     {
       id: 206,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land10.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land10.jpg",
       alt: "Landscape & Architecture Picture 10",
       width: 500,
       height: 750,
@@ -1726,7 +1726,7 @@ const images = [
     {
       id: 207,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land11.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land11.jpg",
       alt: "Landscape & Architecture Picture 11",
       width: 500,
       height: 750,
@@ -1734,7 +1734,7 @@ const images = [
     {
       id: 208,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land12.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land12.jpg",
       alt: "Landscape & Architecture Picture 12",
       width: 500,
       height: 750,
@@ -1742,7 +1742,7 @@ const images = [
     {
       id: 209,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land13.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land13.jpg",
       alt: "Landscape & Architecture Picture 13",
       width: 500,
       height: 750,
@@ -1750,7 +1750,7 @@ const images = [
     {
       id: 210,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land14.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land14.jpg",
       alt: "Landscape & Architecture Picture 14",
       width: 500,
       height: 750,
@@ -1758,7 +1758,7 @@ const images = [
     {
       id: 211,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land15.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land15.jpg",
       alt: "Landscape & Architecture Picture 15",
       width: 500,
       height: 750,
@@ -1766,7 +1766,7 @@ const images = [
     {
       id: 212,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land16.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land16.jpg",
       alt: "Landscape & Architecture Picture 16",
       width: 500,
       height: 750,
@@ -1774,7 +1774,7 @@ const images = [
     {
       id: 213,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land17.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land17.jpg",
       alt: "Landscape & Architecture Picture 17",
       width: 500,
       height: 750,
@@ -1782,7 +1782,7 @@ const images = [
     {
       id: 214,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land18.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land18.jpg",
       alt: "Landscape & Architecture Picture 18",
       width: 500,
       height: 750,
@@ -1790,7 +1790,7 @@ const images = [
     {
       id: 215,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land19.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land19.jpg",
       alt: "Landscape & Architecture Picture 19",
       width: 500,
       height: 750,
@@ -1798,7 +1798,7 @@ const images = [
     {
       id: 216,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land20.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land20.jpg",
       alt: "Landscape & Architecture Picture 20",
       width: 500,
       height: 750,
@@ -1806,7 +1806,7 @@ const images = [
     {
       id: 217,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land21.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land21.jpg",
       alt: "Landscape & Architecture Picture 21",
       width: 500,
       height: 750,
@@ -1814,7 +1814,7 @@ const images = [
     {
       id: 218,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land22.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land22.jpg",
       alt: "Landscape & Architecture Picture 22",
       width: 500,
       height: 750,
@@ -1822,7 +1822,7 @@ const images = [
     {
       id: 219,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land23.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land23.jpg",
       alt: "Landscape & Architecture Picture 23",
       width: 500,
       height: 750,
@@ -1830,7 +1830,7 @@ const images = [
     {
       id: 220,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land24.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land24.jpg",
       alt: "Landscape & Architecture Picture 24",
       width: 500,
       height: 750,
@@ -1838,7 +1838,7 @@ const images = [
     {
       id: 221,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land25.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land25.jpg",
       alt: "Landscape & Architecture Picture 25",
       width: 500,
       height: 750,
@@ -1846,7 +1846,7 @@ const images = [
     {
       id: 222,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land26.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land26.jpg",
       alt: "Landscape & Architecture Picture 26",
       width: 500,
       height: 750,
@@ -1854,7 +1854,7 @@ const images = [
     {
       id: 223,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land27.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land27.jpg",
       alt: "Landscape & Architecture Picture 27",
       width: 500,
       height: 750,
@@ -1862,7 +1862,7 @@ const images = [
     {
       id: 224,
       type: "landscape&architecture",
-      src: "https://raw.githubusercontent.com/OODemi52/photogImages/main/landscape/land28.jpg",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land28.jpg",
       alt: "Landscape & Architecture Picture 28",
       width: 500,
       height: 750,
@@ -1896,7 +1896,7 @@ export default function GalleryOption() {
         {
           width: 512,
           height: 512,
-          url: "https://raw.githubusercontent.com/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
+          url: "https://cdn.statically.io/gh/OODemi52/photog/main/public/favicons/android-chrome-512x512.png",
         },
       ],
     },

@@ -26,6 +26,7 @@ const images = [
   "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero4.jpg",
   "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero5.jpg",
   "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero6.jpg",
+  "https://cdn.statically.io/gh/OODemi52/photogImages/main/hero/hero7.jpg",
 ];
 
 export default function Home() {
@@ -85,7 +86,7 @@ export default function Home() {
               height={2160}
               style={{ objectFit: 'cover' }}
               loading="lazy"
-                      quality={75}
+              quality={75}
             />
           </div>
         </section>

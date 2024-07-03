@@ -26,8 +26,8 @@ export default function AboutPage() {
                         src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port.jpg"
                         alt="Demi Daniel-Akanle"
                         className="h-full w-full rounded-lg drop-shadow-[0_0_5px_#A855F7] animate-fade-in z-[-1]"
-                        width={500}
-                        height={750}
+                        width={1440}
+                        height={2160}
                         style={{ objectFit: 'contain' }}
                     />
                 </div>

@@ -60,8 +60,8 @@ export default function Home() {
                 className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${currentImage === index ? "opacity-100" : "opacity-0"}`}
                 src={src}
                 alt={`Hero Image ${index + 1}`}
-                width={750}
-                height={500}
+                width={2160}
+                height={1440}
                 loading="lazy"
                 quality={75}
               />
@@ -81,8 +81,8 @@ export default function Home() {
               className="h-full w-full object-cover z-[-2]"
               src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad36.jpg"
               alt="Graduation Picture 36"
-              width={500}
-              height={750}
+              width={1440}
+              height={2160}
               style={{ objectFit: 'cover' }}
               loading="lazy"
                       quality={75}
@@ -96,8 +96,8 @@ export default function Home() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port48.jpg"
                       alt="Portrait Picture 48"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -106,8 +106,8 @@ export default function Home() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port47.jpg"
                       alt="Portrait Picture 47"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -116,8 +116,8 @@ export default function Home() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port50.jpg"
                       alt="Portrait Picture 50"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -126,8 +126,8 @@ export default function Home() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port49.jpg"
                       alt="Portrait Picture 49"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -155,8 +155,8 @@ export default function Home() {
               className="h-full w-full object-cover"
               src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event57.jpg"
               alt="Event Picture 57"
-              width={500}
-              height={750}
+              width={2048}
+              height={1365}
               style={{ objectFit: 'cover' }}
               loading="lazy"
               quality={75}

@@ -84,8 +84,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad2.jpg"
                       alt="Graduation Picture 2"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -94,8 +94,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad5.jpg"
                       alt="Graduation Picture 5"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -104,8 +104,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad19.jpg"
                       alt="Graduation Picture 19"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -114,8 +114,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad32.jpg"
                       alt="Graduation Picture 32"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -126,8 +126,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/graduation/grad1.jpg"
                       alt="Graduation Picture 1"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -164,9 +164,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port20.jpg"
-                      alt="Portrait Picture 19"
-                      width={500}
-                      height={750}
+                      alt="Portrait Picture 20"
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -175,8 +175,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port3.jpg"
                       alt="Portrait Picture 3"
-                      width={500}
-                      height={750}
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -184,9 +184,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port18.jpg"
-                      alt="Portrait Picture 17"
-                      width={500}
-                      height={750}
+                      alt="Portrait Picture 18"
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -194,9 +194,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port58.jpg"
-                      alt="Portrait Picture 57"
-                      width={500}
-                      height={750}
+                      alt="Portrait Picture 58"
+                      width={1440}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -206,9 +206,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port14.jpg"
-                      alt="Portrait Picture 13"
-                      width={500}
-                      height={750}
+                      alt="Portrait Picture 14"
+                      width={1728}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -246,9 +246,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head4.jpg"
-                      alt="Professional Headshot Picture 19"
-                      width={500}
-                      height={750}
+                      alt="Professional Headshot Picture 4"
+                      width={1728}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -256,9 +256,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head12.jpg"
-                      alt="Professional Headshot Picture 3"
-                      width={500}
-                      height={750}
+                      alt="Professional Headshot Picture 12"
+                      width={2160}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -266,9 +266,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover lg-image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head9.jpg"
-                      alt="Professional Headshot Picture 17"
-                      width={500}
-                      height={750}
+                      alt="Professional Headshot Picture 9"
+                      width={1728}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -276,9 +276,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head5.jpg"
-                      alt="Professional Headshot Picture 57"
-                      width={500}
-                      height={750}
+                      alt="Professional Headshot Picture 5"
+                      width={1728}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -288,9 +288,9 @@ export default function ServicesPage() {
                     <Image
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/headshots/head2.jpg"
-                      alt="Professional Headshot Picture 13"
-                      width={500}
-                      height={750}
+                      alt="Professional Headshot Picture 2"
+                      width={1728}
+                      height={2160}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -319,8 +319,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event32.jpg"
                       alt="Event Picture 32"
-                      width={500}
-                      height={750}
+                      width={2048}
+                      height={1365}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -329,8 +329,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event85.jpg"
                       alt="Event Picture 85"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -339,8 +339,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event88.jpg"
                       alt="Event Picture 88"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -349,8 +349,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event72.jpg"
                       alt="Event Picture 72"
-                      width={500}
-                      height={750}
+                      width={2048}
+                      height={1365}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -361,8 +361,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/event/event4.jpg"
                       alt="Event Picture 4"
-                      width={500}
-                      height={750}
+                      width={2048}
+                      height={1365}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -391,8 +391,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land5.jpg"
                       alt="Landscape & Architecture 5"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -401,8 +401,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land8.jpg"
                       alt="Landscape & Architecture 8"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -411,8 +411,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover lg-image-mask"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land15.jpg"
                       alt="Landscape & Architecture 15"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -421,8 +421,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land21.jpg"
                       alt="Landscape & Architecture 21"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}
@@ -433,8 +433,8 @@ export default function ServicesPage() {
                       className="h-full w-full object-cover"
                       src="https://cdn.statically.io/gh/OODemi52/photogImages/main/landscape/land2.jpg"
                       alt="Landscape & Architecture Picture 2"
-                      width={500}
-                      height={750}
+                      width={2160}
+                      height={1440}
                       style={{ objectFit: 'cover' }}
                       loading="lazy"
                       quality={75}

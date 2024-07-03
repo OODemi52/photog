@@ -120,8 +120,8 @@ export default function ContactPage() {
           src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port10.jpg"
           alt="Portrait 1"
           className="h-full w-full rounded-lg shadow-lg"
-          width={500}
-          height={750}
+          width={1728}
+          height={2160}
           style={{ objectFit: 'contain' }}
         />
       </section>

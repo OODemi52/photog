@@ -315,6 +315,14 @@ const images = [
 
   // Portraits Images
     {
+      id: 256,
+      type: "portraits",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port.jpg",
+      alt: "Portrait Picture",
+      width: 500,
+      height: 750,
+    },
+    {
       id: 39,
       type: "portraits",
       src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port1.jpg",

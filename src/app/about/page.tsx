@@ -28,7 +28,10 @@ export default function AboutPage() {
                         className="h-full w-full rounded-lg drop-shadow-[0_0_5px_#A855F7] animate-fade-in z-[-1]"
                         width={1440}
                         height={2160}
-                        style={{ objectFit: 'contain' }}
+                        priority={true}
+                        style={{ objectFit: 'contain', transform: "translate3d(0, 0, 0)" }}
+                        placeholder="blur"
+                        blurDataURL="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIDAQQI/8QAGRABAQEBAQEAAAAAAAAAAAAAAAIBIRIx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A82+S1K04KlltybPQrWdCi8a2t4lOtrRC19BN3oB//9k="
                     />
                 </div>
             </section>

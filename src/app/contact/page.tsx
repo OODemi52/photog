@@ -122,7 +122,10 @@ export default function ContactPage() {
           className="h-full w-full rounded-lg shadow-lg"
           width={1728}
           height={2160}
-          style={{ objectFit: 'contain' }}
+          priority={true}
+          style={{ objectFit: 'contain', transform: "translate3d(0, 0, 0)" }}
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwj/xAAYEAEBAAMAAAAAAAAAAAAAAAAAAQIRMf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOY05RUpVGmVgVegDlFqYYDYIA//2Q=="
         />
       </section>
       <section className="md:w-1/2 w-full flex items-center justify-center">

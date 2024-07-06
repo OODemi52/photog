@@ -63,7 +63,7 @@ export default function Home() {
                 alt={`Hero Image ${index + 1}`}
                 width={2160}
                 height={1440}
-                loading="lazy"
+                priority={true}
                 quality={75}
               />
             ))}

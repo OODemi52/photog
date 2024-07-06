@@ -342,6 +342,15 @@ const images = [
       lowResSrc: "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAdEAABBAIDAAAAAAAAAAAAAAAAAQIDEQQSISJB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgX/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIDERL/2gAMAwEAAhEDEQA/ABklKXIMivRMr1snHK6yKmUoW6jSsy+qcgJGzO1AWj6P/9k=",
     },
   {
+      id: 256,
+      type: "portraits",
+      src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port.jpg",
+      alt: "Portrait Picture",
+      width: 1440,
+      height: 2160,
+      lowResSrc: "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAeABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIDAQQI/8QAGRABAQEBAQEAAAAAAAAAAAAAAAIBIRIx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A82+S1K04KlltybPQrWdCi8a2t4lOtrRC19BN3oB//9k=",
+    },
+  {
       id: 39,
       type: "portraits",
       src: "https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port1.jpg",

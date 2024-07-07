@@ -56,8 +56,8 @@ export default function ServicesPage() {
           </TabsList>
 
           {/* Graduation */}
-          <TabsContent value="graduation">
-            <Card className="flex flex-col lg:flex-row z-50">
+          <TabsContent value="graduation" className="flex z-[-1]">
+            <Card className="flex flex-col lg:flex-row z-[-1]">
               <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                 <div className="flex-1">
                   <CardHeader>
@@ -78,7 +78,7 @@ export default function ServicesPage() {
                     *Outfit Changes Available
                   </CardFooter>
                 </div>
-                <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto">
+                <div className="relative flex flex-col lg:flex-row justify-end items-center w-full lg:w-auto z-[0]">
                   <div className="grid grid-cols-2 lg:grid-rows-2 md:grid-rows-1 lg:w-1/4 lg:my-auto sm:w-full flex-1 relative">
                     <Image
                       className="h-full w-full object-cover lg-image-mask image-mask"
@@ -149,8 +149,8 @@ export default function ServicesPage() {
           </TabsContent>
 
           {/* Portraits */}
-          <TabsContent value="portraits">
-            <Card className="flex flex-col lg:flex-row z-50">
+          <TabsContent value="portraits" className="flex z-[-1]">
+            <Card className="flex flex-col lg:flex-row z-[-1]">
               <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                 <div className="flex-1">
                   <CardHeader>
@@ -240,8 +240,8 @@ export default function ServicesPage() {
           </TabsContent>
 
           {/* Headshots */}
-          <TabsContent value="headshots">
-            <Card className="flex flex-col lg:flex-row z-50">
+          <TabsContent value="headshots" className="flex z-[-1]">
+            <Card className="flex flex-col lg:flex-row z-[-1]">
               <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                 <div className="flex-1">
                   <CardHeader>
@@ -332,8 +332,8 @@ export default function ServicesPage() {
           </TabsContent>
 
           {/* Events */}
-          <TabsContent value="events">
-            <Card className="flex flex-col lg:flex-row z-50">
+          <TabsContent value="events" className="flex z-[-1]">
+            <Card className="flex flex-col lg:flex-row z-[-1]">
               <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                 <div className="flex-1">
                   <CardHeader>
@@ -414,8 +414,8 @@ export default function ServicesPage() {
           </TabsContent>
 
           {/* Landscape & Architecture */}
-          <TabsContent value="landscape">
-            <Card className="flex flex-col lg:flex-row z-50">
+          <TabsContent value="landscape" className="flex z-[-1]">
+            <Card className="flex flex-col lg:flex-row z-[-1]">
               <div className="flex flex-col lg:flex-row w-full bg-gradient-to-r from-transparent to-purple-900">
                 <div className="flex-1">
                   <CardHeader>

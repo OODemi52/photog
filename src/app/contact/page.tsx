@@ -115,7 +115,7 @@ export default function ContactPage() {
 
   return (
     <main className="flex flex-col md:flex-row w-full md:h-screen">
-      <section className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden md:object-top">
+      <section className="md:w-1/2 w-full h-1/2 md:h-full overflow-hidden md:object-top z-[-1]">
         <Image
           src="https://cdn.statically.io/gh/OODemi52/photogImages/main/portraits/port10.jpg"
           alt="Portrait 1"

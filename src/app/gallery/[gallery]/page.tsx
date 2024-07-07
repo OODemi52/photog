@@ -2125,7 +2125,7 @@ export default function GalleryOption() {
   };
 
   return (
-    <main>
+    <main className="">
       <h1 className="text-5xl pl-8 pt-4 font-thin">
         <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category === "Landscape&architecture" ? "Landscape & Architecture" : category}
       </h1>
@@ -2137,14 +2137,14 @@ export default function GalleryOption() {
           const isVisible = useIsVisible(ref);
 
           return (
-            <div key={image.id} className="image-wrapper" ref={ref}>
+            <div key={image.id} className="flex image-wrapper" ref={ref}>
               <Image
                 src={image.src}
                 alt={image.alt}
                 width={image.width}
                 height={image.height}
                 style={{ transform: "translate3d(0, 0, 0)" }}
-                className={`h-auto border -z-50 max-w-full md:rounded-none rounded-lg shadow-lg my-4 transition-opacity ease-in duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}
+                className={`h-auto border z-[0] lg:z-[-1] max-w-full md:rounded-none rounded-lg shadow-lg my-2.5 transition-opacity ease-in duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}
                 quality={50}
                 loading="lazy"
                 placeholder="blur"

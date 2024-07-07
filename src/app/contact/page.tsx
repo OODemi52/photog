@@ -179,20 +179,20 @@ export default function ContactPage() {
                     onValueChange={field.onChange}
                   >
                     <div className="flex gap-1 items-center">
-                      <RadioGroupItem value="graduation" id="graduation" />
-                      <Label htmlFor="graduation">Graduation</Label>
-                    </div>
-                    <div className="flex gap-1 items-center">
                       <RadioGroupItem value="portrait" id="portrait" />
                       <Label htmlFor="portrait">Portraits</Label>
                     </div>
                     <div className="flex gap-1 items-center">
-                      <RadioGroupItem value="headshot" id="headshot" />
-                      <Label htmlFor="headshot">Professional Headshots</Label>
-                    </div>
-                    <div className="flex gap-1 items-center">
                       <RadioGroupItem value="event" id="event" />
                       <Label htmlFor="event">Events</Label>
+                    </div>
+                    <div className="flex gap-1 items-center">
+                      <RadioGroupItem value="graduation" id="graduation" />
+                      <Label htmlFor="graduation">Graduation</Label>
+                    </div>
+                    <div className="flex gap-1 items-center">
+                      <RadioGroupItem value="headshot" id="headshot" />
+                      <Label htmlFor="headshot">Professional Headshots</Label>
                     </div>
                     <div className="flex gap-1 items-center">
                       <RadioGroupItem value="landscape" id="landscape" />

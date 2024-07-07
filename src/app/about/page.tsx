@@ -19,7 +19,7 @@ const metadata: Metadata = {
 export default function AboutPage() {
     return (
         <main className="flex flex-col md:flex-row w-full md:h-screen my-16 md:my-0 md:mb-16">
-            <section className="relative md:w-1/2 w-full h-1/2 md:h-full flex items-center justify-center transition-opacity duration-500">
+            <section className="relative md:w-1/2 w-full h-1/2 md:h-full flex items-center justify-center transition-opacity duration-500 z-[-1]">
                 <div className="relative w-3/5 h-3/5 z-[-1]">
                 <h1 className="text-xl font-thin bottom-0 mb-4 text-center z-[-1]">Demi Daniel-Akanle</h1>
                     <Image

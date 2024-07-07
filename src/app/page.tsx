@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-between">
-        <section className="relative grid grid-cols-1 px-4 md:px-12 w-full lg:w-4/5 border-b py-8">
+        <section className="relative grid grid-cols-1 px-4 md:px-12 w-full lg:w-4/5 border-b py-8 z-[-1]">
           <div className="lg:absolute lg:top-1/2 lg:transform lg:-translate-x-1/4 lg:-translate-y-1/2 text-center md:max-w-none z-[-1]">
             <h1 className="text-4xl lg:text-6xl sm:mx-40 font-thin w-full sm:w-auto">Photos that are felt, not just seen.</h1>
             <p className="lg:relative md:text-base font-thin sm:text-sm pb-4">Every image tells a story, let us tell yours.</p>

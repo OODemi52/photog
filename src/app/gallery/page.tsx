@@ -6,6 +6,7 @@ import { useState, useMemo, useRef } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { shuffleWithSeed } from "@/lib/utils";
 import { useIsVisible } from "@/components/useIsVisible";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 type ImageProps = {
   id: number;
@@ -2118,6 +2119,7 @@ const images = [
   
     return (
       <main>
+        <ScrollToTopButton threshold={500} />
         <h1 className="text-7xl pl-8 pt-4 font-thin">All</h1>
         <div className="columns-2 md:columns-3 lg:columns-4 gap-4 p-4 ">
           {shuffledImages.map((image) => {
@@ -2144,7 +2146,7 @@ const images = [
             );
           })}
         </div>
-  
+
         {selectedImage && (
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogContent>

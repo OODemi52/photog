@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation'
 import Link from "next/link";
 import { shuffleWithSeed } from "@/lib/utils";
 import { useIsVisible } from "@/components/useIsVisible";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 interface ImageProps{
   id: number;
@@ -2125,7 +2126,8 @@ export default function GalleryOption() {
   };
 
   return (
-    <main className="">
+    <main>
+      <ScrollToTopButton threshold={500} />
       <h1 className="text-5xl pl-8 pt-4 font-thin">
         <Link href="/gallery" className="hover:underline">All</Link> {'>'} {category === "Landscape&architecture" ? "Landscape & Architecture" : category}
       </h1>

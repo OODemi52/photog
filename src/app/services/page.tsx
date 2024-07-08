@@ -63,7 +63,7 @@ export default function ServicesPage() {
                   <CardHeader>
                     <CardTitle className="font-thin text-6xl">Graduation</CardTitle>
                     <CardDescription className="italic font-thin text-lg justify-end">
-                      Starting at <s>$200</s> $150
+                      Starting at $200
                     </CardDescription>
                   </CardHeader>
                   <CardContent>

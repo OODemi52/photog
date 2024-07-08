@@ -54,6 +54,7 @@ const ScrollToTopButton = ({ threshold }: { threshold: number }) => {
       <button
         className="flex items-center justify-center rounded-full p-2 outline-none border-[0.75px] border-purple-700 w-10 h-10 bg-black shadow-lg hover:shadow-[0_0_10px_#6B21A8] hover:scale-105 transition-transform duration-200"
         onClick={scrollToTop}
+        title="Scroll to top"
       >
         <ChevronUpIcon className="text-white w-6 h-6" />
       </button>

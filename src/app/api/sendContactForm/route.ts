@@ -12,11 +12,12 @@ export async function POST(request: Request) {
         const interest = values.interest.charAt(0).toUpperCase() + values.interest.slice(1);
 
         const { data, error } = await resend.emails.send({
-            from: 'D-Labs <admin@dlabs.photo>',
+            from: 'D-Labs Photography <contact@oodemi.com>',
             to: ['dlabsllc@gmail.com'],
             subject: `Booking Request - ${values.interest} for ${values.name} on ${values.date.toDateString()}`,
             react: EmailTemplate({ name: values.name, email: values.email, number: values.number, interest, date: values.date.toDateString(), message: values.message }),
             text: 'Booking Request',
+            reply_to: values.email,
         });
 
         if (error) {
